@@ -1,0 +1,2728 @@
+2022-03-17 21:10:48,565 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-17 21:10:48,566 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-17 21:10:48,566 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-17 21:10:48,567 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '13429570013', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-17 21:10:48,824 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"账号已存在","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-17 21:10:48,825 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$.code', 'expected': 0, 'type': 'eq'}
+2022-03-17 21:10:48,827 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+2
+2022-03-17 21:10:48,827 py37_api INFO my_assert.py 28 期望结果是：
+0
+2022-03-17 21:10:48,827 py37_api INFO my_assert.py 31 比对结果是：
+False
+2022-03-17 21:10:48,828 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$.msg', 'expected': 'OK', 'type': 'eq'}
+2022-03-17 21:10:48,828 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+账号已存在
+2022-03-17 21:10:48,828 py37_api INFO my_assert.py 28 期望结果是：
+OK
+2022-03-17 21:10:48,829 py37_api INFO my_assert.py 31 比对结果是：
+False
+2022-03-17 21:10:48,829 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$..mobile_phone', 'expected': '13429570013', 'type': 'eq'}
+2022-03-17 21:10:48,830 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+False
+2022-03-17 21:10:48,830 py37_api INFO my_assert.py 28 期望结果是：
+13429570013
+2022-03-17 21:10:48,830 py37_api INFO my_assert.py 31 比对结果是：
+False
+2022-03-17 21:10:48,831 py37_api ERROR my_assert.py 35 断言失败
+2022-03-17 21:10:49,247 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-17 21:10:49,248 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-17 21:10:49,248 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-17 21:10:49,248 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '13429570013', 'pwd': '123456789', 'reg_name': 'testing01', 'type': 0}
+2022-03-17 21:10:49,332 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"账号已存在","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-17 21:10:49,339 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-17 21:10:49,339 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-17 21:10:49,340 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-17 21:10:49,340 py37_api INFO my_requests.py 20 请求data：
+{'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-17 21:10:49,431 py37_api INFO my_requests.py 26 响应结果是：
+{"code":1,"msg":"手机号为空","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-17 21:10:49,438 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-17 21:10:49,438 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-17 21:10:49,439 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-17 21:10:49,439 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '1342957000', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-17 21:10:49,527 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-17 21:10:49,533 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-17 21:10:49,534 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-17 21:10:49,534 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-17 21:10:49,534 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '134295700012', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-17 21:10:49,627 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-17 21:10:49,633 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-17 21:10:49,633 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-17 21:10:49,634 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-17 21:10:49,634 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '1342957wqer', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-17 21:10:49,727 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-17 21:20:47,310 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-17 21:20:47,311 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-17 21:20:47,311 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-17 21:20:47,311 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '13429570014', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-17 21:20:47,569 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"账号已存在","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-17 21:20:47,570 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$.code', 'expected': 0, 'type': 'eq'}
+2022-03-17 21:20:47,572 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+2
+2022-03-17 21:20:47,572 py37_api INFO my_assert.py 28 期望结果是：
+0
+2022-03-17 21:20:47,572 py37_api INFO my_assert.py 31 比对结果是：
+False
+2022-03-17 21:20:47,573 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$.msg', 'expected': 'OK', 'type': 'eq'}
+2022-03-17 21:20:47,573 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+账号已存在
+2022-03-17 21:20:47,573 py37_api INFO my_assert.py 28 期望结果是：
+OK
+2022-03-17 21:20:47,573 py37_api INFO my_assert.py 31 比对结果是：
+False
+2022-03-17 21:20:47,573 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$..mobile_phone', 'expected': '13429570014', 'type': 'eq'}
+2022-03-17 21:20:47,574 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+False
+2022-03-17 21:20:47,575 py37_api INFO my_assert.py 28 期望结果是：
+13429570014
+2022-03-17 21:20:47,575 py37_api INFO my_assert.py 31 比对结果是：
+False
+2022-03-17 21:20:47,575 py37_api ERROR my_assert.py 35 断言失败
+2022-03-17 21:20:47,979 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-17 21:20:47,979 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-17 21:20:47,979 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-17 21:20:47,980 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '13429570015', 'pwd': '123456789', 'reg_name': 'testing01', 'type': 0}
+2022-03-17 21:20:48,138 py37_api INFO my_requests.py 26 响应结果是：
+{"code":0,"msg":"OK","data":{"id":34291497,"reg_name":"testing01","mobile_phone":"13429570015"},"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-17 21:20:48,147 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-17 21:20:48,147 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-17 21:20:48,148 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-17 21:20:48,148 py37_api INFO my_requests.py 20 请求data：
+{'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-17 21:20:48,240 py37_api INFO my_requests.py 26 响应结果是：
+{"code":1,"msg":"手机号为空","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-17 21:20:48,246 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-17 21:20:48,246 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-17 21:20:48,247 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-17 21:20:48,247 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '1342957000', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-17 21:20:48,350 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-17 21:20:48,357 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-17 21:20:48,358 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-17 21:20:48,358 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-17 21:20:48,358 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '134295700012', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-17 21:20:48,452 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-17 21:20:48,458 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-17 21:20:48,458 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-17 21:20:48,458 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-17 21:20:48,459 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '1342957wqer', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-17 21:20:48,554 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-18 22:09:47,774 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-18 22:09:47,775 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-18 22:09:47,776 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-18 22:09:47,776 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '13429570014', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-18 22:09:48,067 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"账号已存在","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-18 22:09:48,069 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$.code', 'expected': 0, 'type': 'eq'}
+2022-03-18 22:09:48,070 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+2
+2022-03-18 22:09:48,071 py37_api INFO my_assert.py 28 期望结果是：
+0
+2022-03-18 22:09:48,071 py37_api INFO my_assert.py 31 比对结果是：
+False
+2022-03-18 22:09:48,071 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$.msg', 'expected': 'OK', 'type': 'eq'}
+2022-03-18 22:09:48,071 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+账号已存在
+2022-03-18 22:09:48,072 py37_api INFO my_assert.py 28 期望结果是：
+OK
+2022-03-18 22:09:48,072 py37_api INFO my_assert.py 31 比对结果是：
+False
+2022-03-18 22:09:48,072 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$..mobile_phone', 'expected': '13429570014', 'type': 'eq'}
+2022-03-18 22:09:48,073 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+False
+2022-03-18 22:09:48,074 py37_api INFO my_assert.py 28 期望结果是：
+13429570014
+2022-03-18 22:09:48,074 py37_api INFO my_assert.py 31 比对结果是：
+False
+2022-03-18 22:09:48,074 py37_api ERROR my_assert.py 35 断言失败
+2022-03-18 22:09:48,564 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-18 22:09:48,565 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-18 22:09:48,565 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-18 22:09:48,566 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '13429570015', 'pwd': '123456789', 'reg_name': 'testing01', 'type': 0}
+2022-03-18 22:09:48,727 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"账号已存在","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-18 22:09:48,735 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-18 22:09:48,736 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-18 22:09:48,736 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-18 22:09:48,737 py37_api INFO my_requests.py 20 请求data：
+{'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-18 22:09:48,832 py37_api INFO my_requests.py 26 响应结果是：
+{"code":1,"msg":"手机号为空","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-18 22:09:48,839 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-18 22:09:48,839 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-18 22:09:48,840 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-18 22:09:48,840 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '1342957000', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-18 22:09:48,927 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-18 22:09:48,935 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-18 22:09:48,936 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-18 22:09:48,936 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-18 22:09:48,936 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '134295700012', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-18 22:09:49,024 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-18 22:09:49,031 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-18 22:09:49,032 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-18 22:09:49,032 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-18 22:09:49,032 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '1342957wqer', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-18 22:09:49,119 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-18 22:12:53,663 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-18 22:12:53,663 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-18 22:12:53,664 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-18 22:12:53,664 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '13429570014', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-18 22:12:53,915 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"账号已存在","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-18 22:12:53,917 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$.code', 'expected': 0, 'type': 'eq'}
+2022-03-18 22:12:53,919 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+2
+2022-03-18 22:12:53,919 py37_api INFO my_assert.py 28 期望结果是：
+0
+2022-03-18 22:12:53,919 py37_api INFO my_assert.py 31 比对结果是：
+False
+2022-03-18 22:12:53,920 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$.msg', 'expected': 'OK', 'type': 'eq'}
+2022-03-18 22:12:53,920 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+账号已存在
+2022-03-18 22:12:53,921 py37_api INFO my_assert.py 28 期望结果是：
+OK
+2022-03-18 22:12:53,921 py37_api INFO my_assert.py 31 比对结果是：
+False
+2022-03-18 22:12:53,922 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$..mobile_phone', 'expected': '13429570014', 'type': 'eq'}
+2022-03-18 22:12:53,923 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+False
+2022-03-18 22:12:53,923 py37_api INFO my_assert.py 28 期望结果是：
+13429570014
+2022-03-18 22:12:53,924 py37_api INFO my_assert.py 31 比对结果是：
+False
+2022-03-18 22:12:53,924 py37_api ERROR my_assert.py 35 断言失败
+2022-03-18 22:12:54,450 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-18 22:12:54,451 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-18 22:12:54,451 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-18 22:12:54,451 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '13429570015', 'pwd': '123456789', 'reg_name': 'testing01', 'type': 0}
+2022-03-18 22:12:54,622 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"账号已存在","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-18 22:12:54,623 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-18 22:12:54,623 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+2
+2022-03-18 22:12:54,624 py37_api INFO my_assert.py 28 期望结果是：
+2
+2022-03-18 22:12:54,624 py37_api INFO my_assert.py 31 比对结果是：
+True
+2022-03-18 22:12:54,624 py37_api INFO my_assert.py 38 所有断言成功
+2022-03-18 22:12:54,630 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-18 22:12:54,630 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-18 22:12:54,631 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-18 22:12:54,631 py37_api INFO my_requests.py 20 请求data：
+{'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-18 22:12:54,720 py37_api INFO my_requests.py 26 响应结果是：
+{"code":1,"msg":"手机号为空","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-18 22:12:54,721 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$.code', 'expected': 1, 'type': 'eq'}
+2022-03-18 22:12:54,721 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+1
+2022-03-18 22:12:54,721 py37_api INFO my_assert.py 28 期望结果是：
+1
+2022-03-18 22:12:54,722 py37_api INFO my_assert.py 31 比对结果是：
+True
+2022-03-18 22:12:54,722 py37_api INFO my_assert.py 38 所有断言成功
+2022-03-18 22:12:54,728 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-18 22:12:54,729 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-18 22:12:54,729 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-18 22:12:54,729 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '1342957000', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-18 22:12:54,815 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-18 22:12:54,816 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-18 22:12:54,816 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+2
+2022-03-18 22:12:54,816 py37_api INFO my_assert.py 28 期望结果是：
+2
+2022-03-18 22:12:54,816 py37_api INFO my_assert.py 31 比对结果是：
+True
+2022-03-18 22:12:54,817 py37_api INFO my_assert.py 38 所有断言成功
+2022-03-18 22:12:54,823 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-18 22:12:54,824 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-18 22:12:54,824 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-18 22:12:54,824 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '134295700012', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-18 22:12:54,910 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-18 22:12:54,911 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-18 22:12:54,911 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+2
+2022-03-18 22:12:54,911 py37_api INFO my_assert.py 28 期望结果是：
+2
+2022-03-18 22:12:54,911 py37_api INFO my_assert.py 31 比对结果是：
+True
+2022-03-18 22:12:54,912 py37_api INFO my_assert.py 38 所有断言成功
+2022-03-18 22:12:54,918 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-18 22:12:54,919 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-18 22:12:54,919 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-18 22:12:54,919 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '1342957wqer', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-18 22:12:55,010 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-18 22:12:55,011 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-18 22:12:55,012 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+2
+2022-03-18 22:12:55,012 py37_api INFO my_assert.py 28 期望结果是：
+2
+2022-03-18 22:12:55,012 py37_api INFO my_assert.py 31 比对结果是：
+True
+2022-03-18 22:12:55,012 py37_api INFO my_assert.py 38 所有断言成功
+2022-03-18 22:15:04,159 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-18 22:15:04,160 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-18 22:15:04,160 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-18 22:15:04,161 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '13429570014', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-18 22:15:04,309 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"账号已存在","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-18 22:15:04,310 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-18 22:15:04,311 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+2
+2022-03-18 22:15:04,311 py37_api INFO my_assert.py 28 期望结果是：
+2
+2022-03-18 22:15:04,311 py37_api INFO my_assert.py 31 比对结果是：
+True
+2022-03-18 22:15:04,311 py37_api INFO my_assert.py 38 所有断言成功
+2022-03-18 22:15:04,317 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-18 22:15:04,317 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-18 22:15:04,318 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-18 22:15:04,318 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '13429570015', 'pwd': '123456789', 'reg_name': 'testing01', 'type': 0}
+2022-03-18 22:15:04,410 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"账号已存在","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-18 22:15:04,410 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-18 22:15:04,411 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+2
+2022-03-18 22:15:04,411 py37_api INFO my_assert.py 28 期望结果是：
+2
+2022-03-18 22:15:04,411 py37_api INFO my_assert.py 31 比对结果是：
+True
+2022-03-18 22:15:04,411 py37_api INFO my_assert.py 38 所有断言成功
+2022-03-18 22:15:04,416 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-18 22:15:04,416 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-18 22:15:04,417 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-18 22:15:04,417 py37_api INFO my_requests.py 20 请求data：
+{'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-18 22:15:04,513 py37_api INFO my_requests.py 26 响应结果是：
+{"code":1,"msg":"手机号为空","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-18 22:15:04,514 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$.code', 'expected': 1, 'type': 'eq'}
+2022-03-18 22:15:04,514 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+1
+2022-03-18 22:15:04,514 py37_api INFO my_assert.py 28 期望结果是：
+1
+2022-03-18 22:15:04,515 py37_api INFO my_assert.py 31 比对结果是：
+True
+2022-03-18 22:15:04,515 py37_api INFO my_assert.py 38 所有断言成功
+2022-03-18 22:15:04,522 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-18 22:15:04,523 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-18 22:15:04,523 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-18 22:15:04,524 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '1342957000', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-18 22:15:04,612 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-18 22:15:04,613 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-18 22:15:04,613 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+2
+2022-03-18 22:15:04,614 py37_api INFO my_assert.py 28 期望结果是：
+2
+2022-03-18 22:15:04,614 py37_api INFO my_assert.py 31 比对结果是：
+True
+2022-03-18 22:15:04,614 py37_api INFO my_assert.py 38 所有断言成功
+2022-03-18 22:15:04,620 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-18 22:15:04,621 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-18 22:15:04,621 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-18 22:15:04,621 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '134295700012', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-18 22:15:04,710 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-18 22:15:04,711 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-18 22:15:04,711 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+2
+2022-03-18 22:15:04,712 py37_api INFO my_assert.py 28 期望结果是：
+2
+2022-03-18 22:15:04,712 py37_api INFO my_assert.py 31 比对结果是：
+True
+2022-03-18 22:15:04,712 py37_api INFO my_assert.py 38 所有断言成功
+2022-03-18 22:15:04,721 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-18 22:15:04,721 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-18 22:15:04,722 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-18 22:15:04,722 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '1342957wqer', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-18 22:15:04,812 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-18 22:15:04,813 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-18 22:15:04,814 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+2
+2022-03-18 22:15:04,814 py37_api INFO my_assert.py 28 期望结果是：
+2
+2022-03-18 22:15:04,814 py37_api INFO my_assert.py 31 比对结果是：
+True
+2022-03-18 22:15:04,815 py37_api INFO my_assert.py 38 所有断言成功
+2022-03-18 22:15:59,581 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-18 22:15:59,581 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-18 22:15:59,582 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-18 22:15:59,582 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '13429570014', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-18 22:15:59,725 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"账号已存在","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-18 22:15:59,726 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-18 22:15:59,728 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+2
+2022-03-18 22:15:59,728 py37_api INFO my_assert.py 28 期望结果是：
+2
+2022-03-18 22:15:59,728 py37_api INFO my_assert.py 31 比对结果是：
+True
+2022-03-18 22:15:59,728 py37_api INFO my_assert.py 38 所有断言成功
+2022-03-18 22:15:59,734 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-18 22:15:59,735 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-18 22:15:59,735 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-18 22:15:59,735 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '13429570015', 'pwd': '123456789', 'reg_name': 'testing01', 'type': 0}
+2022-03-18 22:15:59,833 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"账号已存在","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-18 22:15:59,834 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-18 22:15:59,834 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+2
+2022-03-18 22:15:59,835 py37_api INFO my_assert.py 28 期望结果是：
+2
+2022-03-18 22:15:59,835 py37_api INFO my_assert.py 31 比对结果是：
+True
+2022-03-18 22:15:59,835 py37_api INFO my_assert.py 38 所有断言成功
+2022-03-18 22:15:59,841 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-18 22:15:59,841 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-18 22:15:59,842 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-18 22:15:59,842 py37_api INFO my_requests.py 20 请求data：
+{'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-18 22:15:59,929 py37_api INFO my_requests.py 26 响应结果是：
+{"code":1,"msg":"手机号为空","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-18 22:15:59,930 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$.code', 'expected': 1, 'type': 'eq'}
+2022-03-18 22:15:59,931 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+1
+2022-03-18 22:15:59,931 py37_api INFO my_assert.py 28 期望结果是：
+1
+2022-03-18 22:15:59,931 py37_api INFO my_assert.py 31 比对结果是：
+True
+2022-03-18 22:15:59,931 py37_api INFO my_assert.py 38 所有断言成功
+2022-03-18 22:15:59,937 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-18 22:15:59,938 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-18 22:15:59,938 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-18 22:15:59,938 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '1342957000', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-18 22:16:00,029 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-18 22:16:00,030 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-18 22:16:00,030 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+2
+2022-03-18 22:16:00,030 py37_api INFO my_assert.py 28 期望结果是：
+2
+2022-03-18 22:16:00,031 py37_api INFO my_assert.py 31 比对结果是：
+True
+2022-03-18 22:16:00,031 py37_api INFO my_assert.py 38 所有断言成功
+2022-03-18 22:16:00,040 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-18 22:16:00,041 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-18 22:16:00,041 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-18 22:16:00,041 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '134295700012', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-18 22:16:00,142 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-18 22:16:00,143 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-18 22:16:00,143 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+2
+2022-03-18 22:16:00,143 py37_api INFO my_assert.py 28 期望结果是：
+2
+2022-03-18 22:16:00,143 py37_api INFO my_assert.py 31 比对结果是：
+True
+2022-03-18 22:16:00,144 py37_api INFO my_assert.py 38 所有断言成功
+2022-03-18 22:16:00,150 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-18 22:16:00,150 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-18 22:16:00,151 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-18 22:16:00,151 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '1342957wqer', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-18 22:16:00,247 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-18 22:16:00,248 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-18 22:16:00,248 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+2
+2022-03-18 22:16:00,248 py37_api INFO my_assert.py 28 期望结果是：
+2
+2022-03-18 22:16:00,248 py37_api INFO my_assert.py 31 比对结果是：
+True
+2022-03-18 22:16:00,249 py37_api INFO my_assert.py 38 所有断言成功
+2022-03-18 23:01:00,556 py37_api INFO test_register.py 27 =============================注册接口===========================
+2022-03-18 23:01:01,540 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-18 23:01:01,541 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-18 23:01:01,541 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-18 23:01:01,541 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '13946097139', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-18 23:01:01,743 py37_api INFO my_requests.py 26 响应结果是：
+{"code":0,"msg":"OK","data":{"id":34292253,"reg_name":"testing01","mobile_phone":"13946097139"},"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-18 23:01:01,744 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-18 23:01:01,746 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+0
+2022-03-18 23:01:01,746 py37_api INFO my_assert.py 28 期望结果是：
+2
+2022-03-18 23:01:01,746 py37_api INFO my_assert.py 31 比对结果是：
+False
+2022-03-18 23:01:01,746 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$..mobile_phone', 'expected': '13196647720', 'type': 'eq'}
+2022-03-18 23:01:01,747 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+13946097139
+2022-03-18 23:01:01,747 py37_api INFO my_assert.py 28 期望结果是：
+13196647720
+2022-03-18 23:01:01,748 py37_api INFO my_assert.py 31 比对结果是：
+False
+2022-03-18 23:01:01,748 py37_api ERROR my_assert.py 35 断言失败
+2022-03-18 23:01:02,239 py37_api INFO test_register.py 27 =============================注册接口===========================
+2022-03-18 23:01:02,240 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-18 23:01:02,240 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-18 23:01:02,240 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-18 23:01:02,241 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '13429570015', 'pwd': '123456789', 'reg_name': 'testing01', 'type': 0}
+2022-03-18 23:01:02,395 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"账号已存在","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-18 23:01:02,396 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-18 23:01:02,396 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+2
+2022-03-18 23:01:02,397 py37_api INFO my_assert.py 28 期望结果是：
+2
+2022-03-18 23:01:02,397 py37_api INFO my_assert.py 31 比对结果是：
+True
+2022-03-18 23:01:02,397 py37_api INFO my_assert.py 38 所有断言成功
+2022-03-18 23:01:02,403 py37_api INFO test_register.py 27 =============================注册接口===========================
+2022-03-18 23:01:02,404 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-18 23:01:02,404 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-18 23:01:02,404 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-18 23:01:02,405 py37_api INFO my_requests.py 20 请求data：
+{'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-18 23:01:02,489 py37_api INFO my_requests.py 26 响应结果是：
+{"code":1,"msg":"手机号为空","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-18 23:01:02,490 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$.code', 'expected': 1, 'type': 'eq'}
+2022-03-18 23:01:02,490 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+1
+2022-03-18 23:01:02,490 py37_api INFO my_assert.py 28 期望结果是：
+1
+2022-03-18 23:01:02,490 py37_api INFO my_assert.py 31 比对结果是：
+True
+2022-03-18 23:01:02,491 py37_api INFO my_assert.py 38 所有断言成功
+2022-03-18 23:01:02,497 py37_api INFO test_register.py 27 =============================注册接口===========================
+2022-03-18 23:01:02,497 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-18 23:01:02,497 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-18 23:01:02,498 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-18 23:01:02,498 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '1342957000', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-18 23:01:02,582 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-18 23:01:02,583 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-18 23:01:02,583 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+2
+2022-03-18 23:01:02,584 py37_api INFO my_assert.py 28 期望结果是：
+2
+2022-03-18 23:01:02,584 py37_api INFO my_assert.py 31 比对结果是：
+True
+2022-03-18 23:01:02,584 py37_api INFO my_assert.py 38 所有断言成功
+2022-03-18 23:01:02,591 py37_api INFO test_register.py 27 =============================注册接口===========================
+2022-03-18 23:01:02,592 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-18 23:01:02,592 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-18 23:01:02,592 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-18 23:01:02,592 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '134295700012', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-18 23:01:02,675 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-18 23:01:02,676 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-18 23:01:02,676 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+2
+2022-03-18 23:01:02,676 py37_api INFO my_assert.py 28 期望结果是：
+2
+2022-03-18 23:01:02,676 py37_api INFO my_assert.py 31 比对结果是：
+True
+2022-03-18 23:01:02,677 py37_api INFO my_assert.py 38 所有断言成功
+2022-03-18 23:01:02,683 py37_api INFO test_register.py 27 =============================注册接口===========================
+2022-03-18 23:01:02,683 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-18 23:01:02,683 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-18 23:01:02,684 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-18 23:01:02,684 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '1342957wqer', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-18 23:01:02,777 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-18 23:01:02,778 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-18 23:01:02,778 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+2
+2022-03-18 23:01:02,778 py37_api INFO my_assert.py 28 期望结果是：
+2
+2022-03-18 23:01:02,779 py37_api INFO my_assert.py 31 比对结果是：
+True
+2022-03-18 23:01:02,779 py37_api INFO my_assert.py 38 所有断言成功
+2022-03-18 23:01:02,785 py37_api INFO test_register.py 27 =============================注册接口===========================
+2022-03-18 23:01:02,800 py37_api INFO test_register.py 27 =============================注册接口===========================
+2022-03-18 23:01:02,815 py37_api INFO test_register.py 27 =============================注册接口===========================
+2022-03-18 23:01:02,830 py37_api INFO test_register.py 27 =============================注册接口===========================
+2022-03-18 23:01:02,844 py37_api INFO test_register.py 27 =============================注册接口===========================
+2022-03-18 23:01:02,858 py37_api INFO test_register.py 27 =============================注册接口===========================
+2022-03-18 23:03:15,990 py37_api INFO test_register.py 27 =============================注册接口===========================
+2022-03-18 23:03:16,569 py37_api INFO test_register.py 31 新生成的手机号码是:14588450498
+2022-03-18 23:03:16,960 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-18 23:03:16,961 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-18 23:03:16,961 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-18 23:03:16,961 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '14588450498', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-18 23:03:17,157 py37_api INFO my_requests.py 26 响应结果是：
+{"code":0,"msg":"OK","data":{"id":34292254,"reg_name":"testing01","mobile_phone":"14588450498"},"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-18 23:03:17,158 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-18 23:03:17,159 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+0
+2022-03-18 23:03:17,159 py37_api INFO my_assert.py 28 期望结果是：
+2
+2022-03-18 23:03:17,160 py37_api INFO my_assert.py 31 比对结果是：
+False
+2022-03-18 23:03:17,160 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$..mobile_phone', 'expected': '13757439638', 'type': 'eq'}
+2022-03-18 23:03:17,161 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+14588450498
+2022-03-18 23:03:17,161 py37_api INFO my_assert.py 28 期望结果是：
+13757439638
+2022-03-18 23:03:17,161 py37_api INFO my_assert.py 31 比对结果是：
+False
+2022-03-18 23:03:17,161 py37_api ERROR my_assert.py 35 断言失败
+2022-03-18 23:03:17,661 py37_api INFO test_register.py 27 =============================注册接口===========================
+2022-03-18 23:03:17,662 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-18 23:03:17,662 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-18 23:03:17,662 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-18 23:03:17,662 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '13429570015', 'pwd': '123456789', 'reg_name': 'testing01', 'type': 0}
+2022-03-18 23:03:17,825 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"账号已存在","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-18 23:03:17,826 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-18 23:03:17,827 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+2
+2022-03-18 23:03:17,827 py37_api INFO my_assert.py 28 期望结果是：
+2
+2022-03-18 23:03:17,827 py37_api INFO my_assert.py 31 比对结果是：
+True
+2022-03-18 23:03:17,827 py37_api INFO my_assert.py 38 所有断言成功
+2022-03-18 23:03:17,834 py37_api INFO test_register.py 27 =============================注册接口===========================
+2022-03-18 23:03:17,835 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-18 23:03:17,835 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-18 23:03:17,835 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-18 23:03:17,835 py37_api INFO my_requests.py 20 请求data：
+{'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-18 23:03:17,930 py37_api INFO my_requests.py 26 响应结果是：
+{"code":1,"msg":"手机号为空","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-18 23:03:17,931 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$.code', 'expected': 1, 'type': 'eq'}
+2022-03-18 23:03:17,931 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+1
+2022-03-18 23:03:17,931 py37_api INFO my_assert.py 28 期望结果是：
+1
+2022-03-18 23:03:17,931 py37_api INFO my_assert.py 31 比对结果是：
+True
+2022-03-18 23:03:17,932 py37_api INFO my_assert.py 38 所有断言成功
+2022-03-18 23:03:17,939 py37_api INFO test_register.py 27 =============================注册接口===========================
+2022-03-18 23:03:17,939 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-18 23:03:17,940 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-18 23:03:17,940 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-18 23:03:17,940 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '1342957000', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-18 23:03:18,028 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-18 23:03:18,029 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-18 23:03:18,030 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+2
+2022-03-18 23:03:18,030 py37_api INFO my_assert.py 28 期望结果是：
+2
+2022-03-18 23:03:18,031 py37_api INFO my_assert.py 31 比对结果是：
+True
+2022-03-18 23:03:18,031 py37_api INFO my_assert.py 38 所有断言成功
+2022-03-18 23:03:18,038 py37_api INFO test_register.py 27 =============================注册接口===========================
+2022-03-18 23:03:18,038 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-18 23:03:18,039 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-18 23:03:18,039 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-18 23:03:18,039 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '134295700012', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-18 23:03:18,127 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-18 23:03:18,128 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-18 23:03:18,128 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+2
+2022-03-18 23:03:18,128 py37_api INFO my_assert.py 28 期望结果是：
+2
+2022-03-18 23:03:18,129 py37_api INFO my_assert.py 31 比对结果是：
+True
+2022-03-18 23:03:18,129 py37_api INFO my_assert.py 38 所有断言成功
+2022-03-18 23:03:18,135 py37_api INFO test_register.py 27 =============================注册接口===========================
+2022-03-18 23:03:18,136 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-18 23:03:18,136 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-18 23:03:18,136 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-18 23:03:18,136 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '1342957wqer', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-18 23:03:18,224 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-18 23:03:18,225 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-18 23:03:18,225 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+2
+2022-03-18 23:03:18,226 py37_api INFO my_assert.py 28 期望结果是：
+2
+2022-03-18 23:03:18,226 py37_api INFO my_assert.py 31 比对结果是：
+True
+2022-03-18 23:03:18,226 py37_api INFO my_assert.py 38 所有断言成功
+2022-03-18 23:03:18,232 py37_api INFO test_register.py 27 =============================注册接口===========================
+2022-03-18 23:03:18,246 py37_api INFO test_register.py 27 =============================注册接口===========================
+2022-03-18 23:03:18,260 py37_api INFO test_register.py 27 =============================注册接口===========================
+2022-03-18 23:03:18,274 py37_api INFO test_register.py 27 =============================注册接口===========================
+2022-03-18 23:03:18,291 py37_api INFO test_register.py 27 =============================注册接口===========================
+2022-03-18 23:03:18,307 py37_api INFO test_register.py 27 =============================注册接口===========================
+2022-03-18 23:04:08,505 py37_api INFO test_register.py 27 =============================注册接口===========================
+2022-03-18 23:04:09,044 py37_api INFO test_register.py 31 新生成的手机号码是:15696333154
+2022-03-18 23:04:09,449 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-18 23:04:09,449 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-18 23:04:09,449 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-18 23:04:09,450 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '15696333154', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-18 23:04:09,649 py37_api INFO my_requests.py 26 响应结果是：
+{"code":0,"msg":"OK","data":{"id":34292255,"reg_name":"testing01","mobile_phone":"15696333154"},"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-18 23:04:09,650 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$.code', 'expected': 0, 'type': 'eq'}
+2022-03-18 23:04:09,652 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+0
+2022-03-18 23:04:09,652 py37_api INFO my_assert.py 28 期望结果是：
+0
+2022-03-18 23:04:09,652 py37_api INFO my_assert.py 31 比对结果是：
+True
+2022-03-18 23:04:09,652 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$..mobile_phone', 'expected': '15361694621', 'type': 'eq'}
+2022-03-18 23:04:09,653 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+15696333154
+2022-03-18 23:04:09,654 py37_api INFO my_assert.py 28 期望结果是：
+15361694621
+2022-03-18 23:04:09,654 py37_api INFO my_assert.py 31 比对结果是：
+False
+2022-03-18 23:04:09,654 py37_api ERROR my_assert.py 35 断言失败
+2022-03-18 23:04:10,112 py37_api INFO test_register.py 27 =============================注册接口===========================
+2022-03-18 23:04:10,112 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-18 23:04:10,113 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-18 23:04:10,113 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-18 23:04:10,113 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '13429570015', 'pwd': '123456789', 'reg_name': 'testing01', 'type': 0}
+2022-03-18 23:04:10,288 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"账号已存在","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-18 23:04:10,289 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-18 23:04:10,289 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+2
+2022-03-18 23:04:10,290 py37_api INFO my_assert.py 28 期望结果是：
+2
+2022-03-18 23:04:10,290 py37_api INFO my_assert.py 31 比对结果是：
+True
+2022-03-18 23:04:10,290 py37_api INFO my_assert.py 38 所有断言成功
+2022-03-18 23:04:10,297 py37_api INFO test_register.py 27 =============================注册接口===========================
+2022-03-18 23:04:10,298 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-18 23:04:10,298 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-18 23:04:10,298 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-18 23:04:10,299 py37_api INFO my_requests.py 20 请求data：
+{'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-18 23:04:10,391 py37_api INFO my_requests.py 26 响应结果是：
+{"code":1,"msg":"手机号为空","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-18 23:04:10,392 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$.code', 'expected': 1, 'type': 'eq'}
+2022-03-18 23:04:10,392 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+1
+2022-03-18 23:04:10,392 py37_api INFO my_assert.py 28 期望结果是：
+1
+2022-03-18 23:04:10,392 py37_api INFO my_assert.py 31 比对结果是：
+True
+2022-03-18 23:04:10,393 py37_api INFO my_assert.py 38 所有断言成功
+2022-03-18 23:04:10,399 py37_api INFO test_register.py 27 =============================注册接口===========================
+2022-03-18 23:04:10,399 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-18 23:04:10,399 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-18 23:04:10,400 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-18 23:04:10,400 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '1342957000', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-18 23:04:10,495 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-18 23:04:10,496 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-18 23:04:10,497 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+2
+2022-03-18 23:04:10,497 py37_api INFO my_assert.py 28 期望结果是：
+2
+2022-03-18 23:04:10,497 py37_api INFO my_assert.py 31 比对结果是：
+True
+2022-03-18 23:04:10,497 py37_api INFO my_assert.py 38 所有断言成功
+2022-03-18 23:04:10,503 py37_api INFO test_register.py 27 =============================注册接口===========================
+2022-03-18 23:04:10,504 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-18 23:04:10,504 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-18 23:04:10,504 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-18 23:04:10,505 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '134295700012', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-18 23:04:10,605 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-18 23:04:10,606 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-18 23:04:10,606 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+2
+2022-03-18 23:04:10,606 py37_api INFO my_assert.py 28 期望结果是：
+2
+2022-03-18 23:04:10,607 py37_api INFO my_assert.py 31 比对结果是：
+True
+2022-03-18 23:04:10,607 py37_api INFO my_assert.py 38 所有断言成功
+2022-03-18 23:04:10,613 py37_api INFO test_register.py 27 =============================注册接口===========================
+2022-03-18 23:04:10,613 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-18 23:04:10,613 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-18 23:04:10,614 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-18 23:04:10,614 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '1342957wqer', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-18 23:04:10,702 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-18 23:04:10,703 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-18 23:04:10,703 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+2
+2022-03-18 23:04:10,703 py37_api INFO my_assert.py 28 期望结果是：
+2
+2022-03-18 23:04:10,704 py37_api INFO my_assert.py 31 比对结果是：
+True
+2022-03-18 23:04:10,704 py37_api INFO my_assert.py 38 所有断言成功
+2022-03-18 23:04:10,710 py37_api INFO test_register.py 27 =============================注册接口===========================
+2022-03-18 23:04:10,727 py37_api INFO test_register.py 27 =============================注册接口===========================
+2022-03-18 23:04:10,741 py37_api INFO test_register.py 27 =============================注册接口===========================
+2022-03-18 23:04:10,756 py37_api INFO test_register.py 27 =============================注册接口===========================
+2022-03-18 23:04:10,770 py37_api INFO test_register.py 27 =============================注册接口===========================
+2022-03-18 23:04:10,791 py37_api INFO test_register.py 27 =============================注册接口===========================
+2022-03-18 23:06:10,041 py37_api INFO test_register.py 27 =============================注册接口===========================
+2022-03-18 23:06:10,605 py37_api INFO test_register.py 31 新生成的手机号码是:13672857426
+2022-03-18 23:06:10,606 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-18 23:06:10,606 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-18 23:06:10,606 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-18 23:06:10,607 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '13672857426', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-18 23:06:10,779 py37_api INFO my_requests.py 26 响应结果是：
+{"code":0,"msg":"OK","data":{"id":34292258,"reg_name":"testing01","mobile_phone":"13672857426"},"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-18 23:06:10,781 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$.code', 'expected': 0, 'type': 'eq'}
+2022-03-18 23:06:10,782 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+0
+2022-03-18 23:06:10,783 py37_api INFO my_assert.py 28 期望结果是：
+0
+2022-03-18 23:06:10,783 py37_api INFO my_assert.py 31 比对结果是：
+True
+2022-03-18 23:06:10,783 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$..mobile_phone', 'expected': '13672857426', 'type': 'eq'}
+2022-03-18 23:06:10,784 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+13672857426
+2022-03-18 23:06:10,784 py37_api INFO my_assert.py 28 期望结果是：
+13672857426
+2022-03-18 23:06:10,784 py37_api INFO my_assert.py 31 比对结果是：
+True
+2022-03-18 23:06:10,785 py37_api INFO my_assert.py 38 所有断言成功
+2022-03-18 23:06:10,791 py37_api INFO test_register.py 27 =============================注册接口===========================
+2022-03-18 23:06:11,245 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-18 23:06:11,246 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-18 23:06:11,246 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-18 23:06:11,246 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '13429570015', 'pwd': '123456789', 'reg_name': 'testing01', 'type': 0}
+2022-03-18 23:06:11,415 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"账号已存在","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-18 23:06:11,416 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-18 23:06:11,416 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+2
+2022-03-18 23:06:11,416 py37_api INFO my_assert.py 28 期望结果是：
+2
+2022-03-18 23:06:11,417 py37_api INFO my_assert.py 31 比对结果是：
+True
+2022-03-18 23:06:11,417 py37_api INFO my_assert.py 38 所有断言成功
+2022-03-18 23:06:11,423 py37_api INFO test_register.py 27 =============================注册接口===========================
+2022-03-18 23:06:11,813 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-18 23:06:11,814 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-18 23:06:11,814 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-18 23:06:11,814 py37_api INFO my_requests.py 20 请求data：
+{'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-18 23:06:11,901 py37_api INFO my_requests.py 26 响应结果是：
+{"code":1,"msg":"手机号为空","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-18 23:06:11,902 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$.code', 'expected': 1, 'type': 'eq'}
+2022-03-18 23:06:11,902 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+1
+2022-03-18 23:06:11,902 py37_api INFO my_assert.py 28 期望结果是：
+1
+2022-03-18 23:06:11,903 py37_api INFO my_assert.py 31 比对结果是：
+True
+2022-03-18 23:06:11,903 py37_api INFO my_assert.py 38 所有断言成功
+2022-03-18 23:06:11,909 py37_api INFO test_register.py 27 =============================注册接口===========================
+2022-03-18 23:06:12,312 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-18 23:06:12,313 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-18 23:06:12,313 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-18 23:06:12,313 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '1342957000', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-18 23:06:12,409 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-18 23:06:12,410 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-18 23:06:12,410 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+2
+2022-03-18 23:06:12,411 py37_api INFO my_assert.py 28 期望结果是：
+2
+2022-03-18 23:06:12,411 py37_api INFO my_assert.py 31 比对结果是：
+True
+2022-03-18 23:06:12,411 py37_api INFO my_assert.py 38 所有断言成功
+2022-03-18 23:06:12,418 py37_api INFO test_register.py 27 =============================注册接口===========================
+2022-03-18 23:06:12,814 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-18 23:06:12,815 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-18 23:06:12,815 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-18 23:06:12,815 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '134295700012', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-18 23:06:12,902 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-18 23:06:12,903 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-18 23:06:12,904 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+2
+2022-03-18 23:06:12,904 py37_api INFO my_assert.py 28 期望结果是：
+2
+2022-03-18 23:06:12,904 py37_api INFO my_assert.py 31 比对结果是：
+True
+2022-03-18 23:06:12,904 py37_api INFO my_assert.py 38 所有断言成功
+2022-03-18 23:06:12,911 py37_api INFO test_register.py 27 =============================注册接口===========================
+2022-03-18 23:06:13,308 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-18 23:06:13,309 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-18 23:06:13,309 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-18 23:06:13,309 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '1342957wqer', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-18 23:06:13,396 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-18 23:06:13,397 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-18 23:06:13,397 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+2
+2022-03-18 23:06:13,397 py37_api INFO my_assert.py 28 期望结果是：
+2
+2022-03-18 23:06:13,398 py37_api INFO my_assert.py 31 比对结果是：
+True
+2022-03-18 23:06:13,398 py37_api INFO my_assert.py 38 所有断言成功
+2022-03-18 23:06:13,404 py37_api INFO test_register.py 27 =============================注册接口===========================
+2022-03-18 23:06:14,355 py37_api INFO test_register.py 27 =============================注册接口===========================
+2022-03-18 23:06:14,748 py37_api INFO test_register.py 27 =============================注册接口===========================
+2022-03-18 23:06:15,181 py37_api INFO test_register.py 27 =============================注册接口===========================
+2022-03-18 23:06:15,638 py37_api INFO test_register.py 27 =============================注册接口===========================
+2022-03-18 23:06:16,074 py37_api INFO test_register.py 27 =============================注册接口===========================
+2022-03-18 23:08:41,963 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-18 23:08:42,473 py37_api INFO test_register.py 33 新生成的手机号码是:13486849724
+2022-03-18 23:08:42,474 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-18 23:08:42,474 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-18 23:08:42,474 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-18 23:08:42,474 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '13486849724', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-18 23:08:42,708 py37_api INFO my_requests.py 26 响应结果是：
+{"code":0,"msg":"OK","data":{"id":34292259,"reg_name":"testing01","mobile_phone":"13486849724"},"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-18 23:08:42,709 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$.code', 'expected': 0, 'type': 'eq'}
+2022-03-18 23:08:42,710 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+0
+2022-03-18 23:08:42,711 py37_api INFO my_assert.py 28 期望结果是：
+0
+2022-03-18 23:08:42,711 py37_api INFO my_assert.py 31 比对结果是：
+True
+2022-03-18 23:08:42,711 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$..mobile_phone', 'expected': '13486849724', 'type': 'eq'}
+2022-03-18 23:08:42,712 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+13486849724
+2022-03-18 23:08:42,712 py37_api INFO my_assert.py 28 期望结果是：
+13486849724
+2022-03-18 23:08:42,712 py37_api INFO my_assert.py 31 比对结果是：
+True
+2022-03-18 23:08:42,713 py37_api INFO my_assert.py 38 所有断言成功
+2022-03-18 23:08:42,720 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-18 23:08:43,196 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-18 23:08:43,197 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-18 23:08:43,197 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-18 23:08:43,197 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '13429570015', 'pwd': '123456789', 'reg_name': 'testing01', 'type': 0}
+2022-03-18 23:08:43,362 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"账号已存在","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-18 23:08:43,363 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-18 23:08:43,363 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+2
+2022-03-18 23:08:43,364 py37_api INFO my_assert.py 28 期望结果是：
+2
+2022-03-18 23:08:43,364 py37_api INFO my_assert.py 31 比对结果是：
+True
+2022-03-18 23:08:43,364 py37_api INFO my_assert.py 38 所有断言成功
+2022-03-18 23:08:43,370 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-18 23:08:43,771 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-18 23:08:43,772 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-18 23:08:43,772 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-18 23:08:43,772 py37_api INFO my_requests.py 20 请求data：
+{'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-18 23:08:43,865 py37_api INFO my_requests.py 26 响应结果是：
+{"code":1,"msg":"手机号为空","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-18 23:08:43,866 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$.code', 'expected': 1, 'type': 'eq'}
+2022-03-18 23:08:43,866 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+1
+2022-03-18 23:08:43,867 py37_api INFO my_assert.py 28 期望结果是：
+1
+2022-03-18 23:08:43,867 py37_api INFO my_assert.py 31 比对结果是：
+True
+2022-03-18 23:08:43,867 py37_api INFO my_assert.py 38 所有断言成功
+2022-03-18 23:08:43,880 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-18 23:08:44,348 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-18 23:08:44,348 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-18 23:08:44,349 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-18 23:08:44,349 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '1342957000', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-18 23:08:44,445 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-18 23:08:44,445 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-18 23:08:44,446 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+2
+2022-03-18 23:08:44,446 py37_api INFO my_assert.py 28 期望结果是：
+2
+2022-03-18 23:08:44,446 py37_api INFO my_assert.py 31 比对结果是：
+True
+2022-03-18 23:08:44,447 py37_api INFO my_assert.py 38 所有断言成功
+2022-03-18 23:08:44,453 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-18 23:08:44,881 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-18 23:08:44,882 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-18 23:08:44,882 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-18 23:08:44,882 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '134295700012', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-18 23:08:44,964 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-18 23:08:44,965 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-18 23:08:44,965 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+2
+2022-03-18 23:08:44,965 py37_api INFO my_assert.py 28 期望结果是：
+2
+2022-03-18 23:08:44,966 py37_api INFO my_assert.py 31 比对结果是：
+True
+2022-03-18 23:08:44,966 py37_api INFO my_assert.py 38 所有断言成功
+2022-03-18 23:08:44,972 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-18 23:08:45,388 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-18 23:08:45,389 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-18 23:08:45,389 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-18 23:08:45,389 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '1342957wqer', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-18 23:08:45,477 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-18 23:08:45,478 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-18 23:08:45,478 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+2
+2022-03-18 23:08:45,479 py37_api INFO my_assert.py 28 期望结果是：
+2
+2022-03-18 23:08:45,479 py37_api INFO my_assert.py 31 比对结果是：
+True
+2022-03-18 23:08:45,479 py37_api INFO my_assert.py 38 所有断言成功
+2022-03-18 23:08:45,485 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-18 23:08:46,374 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-18 23:08:46,785 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-18 23:08:47,182 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-18 23:08:47,655 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-18 23:08:48,090 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-18 23:12:24,936 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-18 23:12:25,447 py37_api INFO test_register.py 33 新生成的手机号码是:18943389644
+2022-03-18 23:12:25,448 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-18 23:12:25,448 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-18 23:12:25,449 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-18 23:12:25,449 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '18943389644', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-18 23:12:25,607 py37_api INFO my_requests.py 26 响应结果是：
+{"code":0,"msg":"OK","data":{"id":34292261,"reg_name":"testing01","mobile_phone":"18943389644"},"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-18 23:12:25,608 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$.code', 'expected': 0, 'type': 'eq'}
+2022-03-18 23:12:25,610 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+0
+2022-03-18 23:12:25,610 py37_api INFO my_assert.py 28 期望结果是：
+0
+2022-03-18 23:12:25,610 py37_api INFO my_assert.py 31 比对结果是：
+True
+2022-03-18 23:12:25,610 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$..mobile_phone', 'expected': '18943389644', 'type': 'eq'}
+2022-03-18 23:12:25,611 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+18943389644
+2022-03-18 23:12:25,611 py37_api INFO my_assert.py 28 期望结果是：
+18943389644
+2022-03-18 23:12:25,612 py37_api INFO my_assert.py 31 比对结果是：
+True
+2022-03-18 23:12:25,612 py37_api INFO my_assert.py 38 所有断言成功
+2022-03-18 23:12:25,618 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-18 23:12:26,034 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-18 23:12:26,034 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-18 23:12:26,035 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-18 23:12:26,035 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '13429570015', 'pwd': '123456789', 'reg_name': 'testing01', 'type': 0}
+2022-03-18 23:12:26,192 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"账号已存在","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-18 23:12:26,193 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-18 23:12:26,193 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+2
+2022-03-18 23:12:26,193 py37_api INFO my_assert.py 28 期望结果是：
+2
+2022-03-18 23:12:26,194 py37_api INFO my_assert.py 31 比对结果是：
+True
+2022-03-18 23:12:26,194 py37_api INFO my_assert.py 38 所有断言成功
+2022-03-18 23:12:26,201 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-18 23:12:26,619 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-18 23:12:26,619 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-18 23:12:26,620 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-18 23:12:26,620 py37_api INFO my_requests.py 20 请求data：
+{'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-18 23:12:26,719 py37_api INFO my_requests.py 26 响应结果是：
+{"code":1,"msg":"手机号为空","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-18 23:12:26,720 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$.code', 'expected': 1, 'type': 'eq'}
+2022-03-18 23:12:26,720 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+1
+2022-03-18 23:12:26,720 py37_api INFO my_assert.py 28 期望结果是：
+1
+2022-03-18 23:12:26,721 py37_api INFO my_assert.py 31 比对结果是：
+True
+2022-03-18 23:12:26,721 py37_api INFO my_assert.py 38 所有断言成功
+2022-03-18 23:12:26,727 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-18 23:12:27,154 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-18 23:12:27,155 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-18 23:12:27,155 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-18 23:12:27,155 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '1342957000', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-18 23:12:27,240 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-18 23:12:27,241 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-18 23:12:27,242 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+2
+2022-03-18 23:12:27,242 py37_api INFO my_assert.py 28 期望结果是：
+2
+2022-03-18 23:12:27,242 py37_api INFO my_assert.py 31 比对结果是：
+True
+2022-03-18 23:12:27,242 py37_api INFO my_assert.py 38 所有断言成功
+2022-03-18 23:12:27,250 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-18 23:12:27,694 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-18 23:12:27,695 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-18 23:12:27,695 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-18 23:12:27,695 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '134295700012', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-18 23:12:27,782 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-18 23:12:27,783 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-18 23:12:27,783 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+2
+2022-03-18 23:12:27,783 py37_api INFO my_assert.py 28 期望结果是：
+2
+2022-03-18 23:12:27,783 py37_api INFO my_assert.py 31 比对结果是：
+True
+2022-03-18 23:12:27,784 py37_api INFO my_assert.py 38 所有断言成功
+2022-03-18 23:12:27,789 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-18 23:12:28,200 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-18 23:12:28,200 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-18 23:12:28,201 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-18 23:12:28,201 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '1342957wqer', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-18 23:12:28,292 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-18 23:12:28,293 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-18 23:12:28,293 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+2
+2022-03-18 23:12:28,293 py37_api INFO my_assert.py 28 期望结果是：
+2
+2022-03-18 23:12:28,294 py37_api INFO my_assert.py 31 比对结果是：
+True
+2022-03-18 23:12:28,294 py37_api INFO my_assert.py 38 所有断言成功
+2022-03-18 23:12:42,720 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-18 23:12:43,220 py37_api INFO test_register.py 33 新生成的手机号码是:15602673077
+2022-03-18 23:12:43,221 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-18 23:12:43,221 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-18 23:12:43,221 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-18 23:12:43,221 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '15602673077', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-18 23:12:43,389 py37_api INFO my_requests.py 26 响应结果是：
+{"code":0,"msg":"OK","data":{"id":34292262,"reg_name":"testing01","mobile_phone":"15602673077"},"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-18 23:12:43,390 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$.code', 'expected': 0, 'type': 'eq'}
+2022-03-18 23:12:43,392 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+0
+2022-03-18 23:12:43,392 py37_api INFO my_assert.py 28 期望结果是：
+0
+2022-03-18 23:12:43,392 py37_api INFO my_assert.py 31 比对结果是：
+True
+2022-03-18 23:12:43,393 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$..mobile_phone', 'expected': '15602673077', 'type': 'eq'}
+2022-03-18 23:12:43,393 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+15602673077
+2022-03-18 23:12:43,394 py37_api INFO my_assert.py 28 期望结果是：
+15602673077
+2022-03-18 23:12:43,394 py37_api INFO my_assert.py 31 比对结果是：
+True
+2022-03-18 23:12:43,394 py37_api INFO my_assert.py 38 所有断言成功
+2022-03-18 23:12:43,400 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-18 23:12:43,834 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-18 23:12:43,835 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-18 23:12:43,835 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-18 23:12:43,835 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '13429570015', 'pwd': '123456789', 'reg_name': 'testing01', 'type': 0}
+2022-03-18 23:12:43,994 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"账号已存在","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-18 23:12:43,995 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-18 23:12:43,996 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+2
+2022-03-18 23:12:43,996 py37_api INFO my_assert.py 28 期望结果是：
+2
+2022-03-18 23:12:43,996 py37_api INFO my_assert.py 31 比对结果是：
+True
+2022-03-18 23:12:43,997 py37_api INFO my_assert.py 38 所有断言成功
+2022-03-18 23:12:44,006 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-18 23:12:44,451 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-18 23:12:44,451 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-18 23:12:44,451 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-18 23:12:44,451 py37_api INFO my_requests.py 20 请求data：
+{'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-18 23:12:44,544 py37_api INFO my_requests.py 26 响应结果是：
+{"code":1,"msg":"手机号为空","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-18 23:12:44,545 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$.code', 'expected': 1, 'type': 'eq'}
+2022-03-18 23:12:44,546 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+1
+2022-03-18 23:12:44,546 py37_api INFO my_assert.py 28 期望结果是：
+1
+2022-03-18 23:12:44,547 py37_api INFO my_assert.py 31 比对结果是：
+True
+2022-03-18 23:12:44,547 py37_api INFO my_assert.py 38 所有断言成功
+2022-03-18 23:12:44,554 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-18 23:12:44,946 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-18 23:12:44,947 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-18 23:12:44,947 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-18 23:12:44,947 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '1342957000', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-18 23:12:45,034 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-18 23:12:45,035 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-18 23:12:45,035 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+2
+2022-03-18 23:12:45,036 py37_api INFO my_assert.py 28 期望结果是：
+2
+2022-03-18 23:12:45,036 py37_api INFO my_assert.py 31 比对结果是：
+True
+2022-03-18 23:12:45,036 py37_api INFO my_assert.py 38 所有断言成功
+2022-03-18 23:12:45,042 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-18 23:12:45,459 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-18 23:12:45,460 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-18 23:12:45,460 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-18 23:12:45,461 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '134295700012', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-18 23:12:45,549 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-18 23:12:45,550 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-18 23:12:45,551 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+2
+2022-03-18 23:12:45,551 py37_api INFO my_assert.py 28 期望结果是：
+2
+2022-03-18 23:12:45,551 py37_api INFO my_assert.py 31 比对结果是：
+True
+2022-03-18 23:12:45,551 py37_api INFO my_assert.py 38 所有断言成功
+2022-03-18 23:12:45,557 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-18 23:12:45,955 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-18 23:12:45,956 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-18 23:12:45,956 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-18 23:12:45,957 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '1342957wqer', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-18 23:12:46,043 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-18 23:12:46,044 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-18 23:12:46,045 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+2
+2022-03-18 23:12:46,045 py37_api INFO my_assert.py 28 期望结果是：
+2
+2022-03-18 23:12:46,045 py37_api INFO my_assert.py 31 比对结果是：
+True
+2022-03-18 23:12:46,045 py37_api INFO my_assert.py 38 所有断言成功
+2022-03-18 23:12:46,053 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-18 23:12:46,951 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-18 23:12:47,389 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-18 23:12:47,849 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-18 23:12:48,270 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-18 23:12:48,700 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-18 23:13:02,257 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-18 23:13:02,876 py37_api INFO test_register.py 33 新生成的手机号码是:18508435931
+2022-03-18 23:13:02,877 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-18 23:13:02,877 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-18 23:13:02,877 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-18 23:13:02,878 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '18508435931', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-18 23:13:03,043 py37_api INFO my_requests.py 26 响应结果是：
+{"code":0,"msg":"OK","data":{"id":34292263,"reg_name":"testing01","mobile_phone":"18508435931"},"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-18 23:13:03,044 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$.code', 'expected': 0, 'type': 'eq'}
+2022-03-18 23:13:03,046 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+0
+2022-03-18 23:13:03,046 py37_api INFO my_assert.py 28 期望结果是：
+0
+2022-03-18 23:13:03,046 py37_api INFO my_assert.py 31 比对结果是：
+True
+2022-03-18 23:13:03,046 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$..mobile_phone', 'expected': '18508435931', 'type': 'eq'}
+2022-03-18 23:13:03,047 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+18508435931
+2022-03-18 23:13:03,048 py37_api INFO my_assert.py 28 期望结果是：
+18508435931
+2022-03-18 23:13:03,048 py37_api INFO my_assert.py 31 比对结果是：
+True
+2022-03-18 23:13:03,048 py37_api INFO my_assert.py 38 所有断言成功
+2022-03-18 23:13:03,057 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-18 23:13:03,515 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-18 23:13:03,516 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-18 23:13:03,516 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-18 23:13:03,516 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '13429570015', 'pwd': '123456789', 'reg_name': 'testing01', 'type': 0}
+2022-03-18 23:13:03,682 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"账号已存在","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-18 23:13:03,683 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-18 23:13:03,683 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+2
+2022-03-18 23:13:03,683 py37_api INFO my_assert.py 28 期望结果是：
+2
+2022-03-18 23:13:03,684 py37_api INFO my_assert.py 31 比对结果是：
+True
+2022-03-18 23:13:03,684 py37_api INFO my_assert.py 38 所有断言成功
+2022-03-18 23:13:03,690 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-18 23:13:04,086 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-18 23:13:04,087 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-18 23:13:04,087 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-18 23:13:04,088 py37_api INFO my_requests.py 20 请求data：
+{'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-18 23:13:04,180 py37_api INFO my_requests.py 26 响应结果是：
+{"code":1,"msg":"手机号为空","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-18 23:13:04,181 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$.code', 'expected': 1, 'type': 'eq'}
+2022-03-18 23:13:04,182 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+1
+2022-03-18 23:13:04,182 py37_api INFO my_assert.py 28 期望结果是：
+1
+2022-03-18 23:13:04,182 py37_api INFO my_assert.py 31 比对结果是：
+True
+2022-03-18 23:13:04,183 py37_api INFO my_assert.py 38 所有断言成功
+2022-03-18 23:13:04,192 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-18 23:13:04,665 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-18 23:13:04,666 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-18 23:13:04,666 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-18 23:13:04,666 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '1342957000', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-18 23:13:04,759 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-18 23:13:04,760 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-18 23:13:04,760 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+2
+2022-03-18 23:13:04,760 py37_api INFO my_assert.py 28 期望结果是：
+2
+2022-03-18 23:13:04,761 py37_api INFO my_assert.py 31 比对结果是：
+True
+2022-03-18 23:13:04,761 py37_api INFO my_assert.py 38 所有断言成功
+2022-03-18 23:13:04,767 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-18 23:13:05,178 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-18 23:13:05,178 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-18 23:13:05,179 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-18 23:13:05,179 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '134295700012', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-18 23:13:05,275 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-18 23:13:05,276 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-18 23:13:05,276 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+2
+2022-03-18 23:13:05,276 py37_api INFO my_assert.py 28 期望结果是：
+2
+2022-03-18 23:13:05,277 py37_api INFO my_assert.py 31 比对结果是：
+True
+2022-03-18 23:13:05,277 py37_api INFO my_assert.py 38 所有断言成功
+2022-03-18 23:13:05,284 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-18 23:13:05,705 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-18 23:13:05,706 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-18 23:13:05,706 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-18 23:13:05,706 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '1342957wqer', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-18 23:13:05,789 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-18 23:13:05,790 py37_api INFO my_assert.py 22 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-18 23:13:05,790 py37_api INFO my_assert.py 27 从响应结果中提取的值是：
+2
+2022-03-18 23:13:05,790 py37_api INFO my_assert.py 28 期望结果是：
+2
+2022-03-18 23:13:05,791 py37_api INFO my_assert.py 31 比对结果是：
+True
+2022-03-18 23:13:05,791 py37_api INFO my_assert.py 38 所有断言成功
+2022-03-19 18:39:48,753 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-19 18:39:49,343 py37_api INFO test_register.py 33 新生成的手机号码是:13670025316
+2022-03-19 18:39:49,343 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-19 18:39:49,343 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-19 18:39:49,343 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-19 18:39:49,343 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '13670025316', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-19 18:39:49,524 py37_api INFO my_requests.py 26 响应结果是：
+{"code":0,"msg":"OK","data":{"id":34292730,"reg_name":"testing01","mobile_phone":"13670025316"},"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-19 18:39:49,534 py37_api INFO my_assert.py 23 要断言的字段为：
+{'expr': '$.code', 'expected': 0, 'type': 'eq'}
+2022-03-19 18:39:49,534 py37_api INFO my_assert.py 28 从响应结果中提取的值是：
+0
+2022-03-19 18:39:49,534 py37_api INFO my_assert.py 29 期望结果是：
+0
+2022-03-19 18:39:49,534 py37_api INFO my_assert.py 32 比对结果是：
+True
+2022-03-19 18:39:49,534 py37_api INFO my_assert.py 23 要断言的字段为：
+{'expr': '$..mobile_phone', 'expected': '13670025316', 'type': 'eq'}
+2022-03-19 18:39:49,534 py37_api INFO my_assert.py 28 从响应结果中提取的值是：
+13670025316
+2022-03-19 18:39:49,534 py37_api INFO my_assert.py 29 期望结果是：
+13670025316
+2022-03-19 18:39:49,534 py37_api INFO my_assert.py 32 比对结果是：
+True
+2022-03-19 18:39:49,534 py37_api INFO my_assert.py 40 所有断言成功
+2022-03-19 18:39:50,104 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-19 18:39:50,513 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-19 18:39:50,513 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-19 18:39:50,513 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-19 18:39:50,513 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '13429570015', 'pwd': '123456789', 'reg_name': 'testing01', 'type': 0}
+2022-03-19 18:39:50,674 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"账号已存在","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-19 18:39:50,674 py37_api INFO my_assert.py 23 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-19 18:39:50,674 py37_api INFO my_assert.py 28 从响应结果中提取的值是：
+2
+2022-03-19 18:39:50,674 py37_api INFO my_assert.py 29 期望结果是：
+2
+2022-03-19 18:39:50,674 py37_api INFO my_assert.py 32 比对结果是：
+True
+2022-03-19 18:39:50,674 py37_api INFO my_assert.py 40 所有断言成功
+2022-03-19 18:39:50,684 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-19 18:39:51,074 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-19 18:39:51,074 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-19 18:39:51,074 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-19 18:39:51,074 py37_api INFO my_requests.py 20 请求data：
+{'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-19 18:39:51,164 py37_api INFO my_requests.py 26 响应结果是：
+{"code":1,"msg":"手机号为空","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-19 18:39:51,164 py37_api INFO my_assert.py 23 要断言的字段为：
+{'expr': '$.code', 'expected': 1, 'type': 'eq'}
+2022-03-19 18:39:51,164 py37_api INFO my_assert.py 28 从响应结果中提取的值是：
+1
+2022-03-19 18:39:51,164 py37_api INFO my_assert.py 29 期望结果是：
+1
+2022-03-19 18:39:51,164 py37_api INFO my_assert.py 32 比对结果是：
+True
+2022-03-19 18:39:51,164 py37_api INFO my_assert.py 40 所有断言成功
+2022-03-19 18:39:51,174 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-19 18:39:51,584 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-19 18:39:51,584 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-19 18:39:51,584 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-19 18:39:51,584 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '1342957000', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-19 18:39:51,674 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-19 18:39:51,674 py37_api INFO my_assert.py 23 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-19 18:39:51,674 py37_api INFO my_assert.py 28 从响应结果中提取的值是：
+2
+2022-03-19 18:39:51,674 py37_api INFO my_assert.py 29 期望结果是：
+2
+2022-03-19 18:39:51,674 py37_api INFO my_assert.py 32 比对结果是：
+True
+2022-03-19 18:39:51,674 py37_api INFO my_assert.py 40 所有断言成功
+2022-03-19 18:39:51,684 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-19 18:39:52,094 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-19 18:39:52,094 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-19 18:39:52,094 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-19 18:39:52,094 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '134295700012', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-19 18:39:52,184 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-19 18:39:52,184 py37_api INFO my_assert.py 23 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-19 18:39:52,184 py37_api INFO my_assert.py 28 从响应结果中提取的值是：
+2
+2022-03-19 18:39:52,184 py37_api INFO my_assert.py 29 期望结果是：
+2
+2022-03-19 18:39:52,184 py37_api INFO my_assert.py 32 比对结果是：
+True
+2022-03-19 18:39:52,184 py37_api INFO my_assert.py 40 所有断言成功
+2022-03-19 18:39:52,194 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-19 18:39:52,604 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-19 18:39:52,604 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-19 18:39:52,604 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-19 18:39:52,604 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '1342957wqer', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-19 18:39:52,694 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-19 18:39:52,694 py37_api INFO my_assert.py 23 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-19 18:39:52,694 py37_api INFO my_assert.py 28 从响应结果中提取的值是：
+2
+2022-03-19 18:39:52,694 py37_api INFO my_assert.py 29 期望结果是：
+2
+2022-03-19 18:39:52,694 py37_api INFO my_assert.py 32 比对结果是：
+True
+2022-03-19 18:39:52,694 py37_api INFO my_assert.py 40 所有断言成功
+2022-03-19 18:41:44,332 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-19 18:41:44,882 py37_api INFO test_register.py 33 新生成的手机号码是:15110317297
+2022-03-19 18:41:44,882 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-19 18:41:44,882 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-19 18:41:44,882 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-19 18:41:44,882 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '15110317297', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-19 18:41:45,052 py37_api INFO my_requests.py 26 响应结果是：
+{"code":0,"msg":"OK","data":{"id":34292744,"reg_name":"testing01","mobile_phone":"15110317297"},"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-19 18:41:45,052 py37_api INFO my_assert.py 23 要断言的字段为：
+{'expr': '$.code', 'expected': 0, 'type': 'eq'}
+2022-03-19 18:41:45,052 py37_api INFO my_assert.py 28 从响应结果中提取的值是：
+0
+2022-03-19 18:41:45,052 py37_api INFO my_assert.py 29 期望结果是：
+0
+2022-03-19 18:41:45,052 py37_api INFO my_assert.py 32 比对结果是：
+True
+2022-03-19 18:41:45,052 py37_api INFO my_assert.py 23 要断言的字段为：
+{'expr': '$..mobile_phone', 'expected': '15110317297', 'type': 'eq'}
+2022-03-19 18:41:45,052 py37_api INFO my_assert.py 28 从响应结果中提取的值是：
+15110317297
+2022-03-19 18:41:45,052 py37_api INFO my_assert.py 29 期望结果是：
+15110317297
+2022-03-19 18:41:45,052 py37_api INFO my_assert.py 32 比对结果是：
+True
+2022-03-19 18:41:45,052 py37_api INFO my_assert.py 40 所有断言成功
+2022-03-19 18:41:45,613 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-19 18:41:46,044 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-19 18:41:46,044 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-19 18:41:46,044 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-19 18:41:46,044 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '13429570015', 'pwd': '123456789', 'reg_name': 'testing01', 'type': 0}
+2022-03-19 18:41:46,204 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"账号已存在","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-19 18:41:46,204 py37_api INFO my_assert.py 23 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-19 18:41:46,204 py37_api INFO my_assert.py 28 从响应结果中提取的值是：
+2
+2022-03-19 18:41:46,204 py37_api INFO my_assert.py 29 期望结果是：
+2
+2022-03-19 18:41:46,204 py37_api INFO my_assert.py 32 比对结果是：
+True
+2022-03-19 18:41:46,204 py37_api INFO my_assert.py 40 所有断言成功
+2022-03-19 18:41:46,214 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-19 18:41:46,653 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-19 18:41:46,653 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-19 18:41:46,653 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-19 18:41:46,653 py37_api INFO my_requests.py 20 请求data：
+{'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-19 18:41:46,743 py37_api INFO my_requests.py 26 响应结果是：
+{"code":1,"msg":"手机号为空","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-19 18:41:46,743 py37_api INFO my_assert.py 23 要断言的字段为：
+{'expr': '$.code', 'expected': 1, 'type': 'eq'}
+2022-03-19 18:41:46,743 py37_api INFO my_assert.py 28 从响应结果中提取的值是：
+1
+2022-03-19 18:41:46,743 py37_api INFO my_assert.py 29 期望结果是：
+1
+2022-03-19 18:41:46,743 py37_api INFO my_assert.py 32 比对结果是：
+True
+2022-03-19 18:41:46,743 py37_api INFO my_assert.py 40 所有断言成功
+2022-03-19 18:41:46,753 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-19 18:41:47,153 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-19 18:41:47,164 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-19 18:41:47,164 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-19 18:41:47,164 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '1342957000', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-19 18:41:47,254 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-19 18:41:47,254 py37_api INFO my_assert.py 23 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-19 18:41:47,254 py37_api INFO my_assert.py 28 从响应结果中提取的值是：
+2
+2022-03-19 18:41:47,254 py37_api INFO my_assert.py 29 期望结果是：
+2
+2022-03-19 18:41:47,254 py37_api INFO my_assert.py 32 比对结果是：
+True
+2022-03-19 18:41:47,254 py37_api INFO my_assert.py 40 所有断言成功
+2022-03-19 18:41:47,254 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-19 18:41:47,737 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-19 18:41:47,737 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-19 18:41:47,737 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-19 18:41:47,737 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '134295700012', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-19 18:41:47,827 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-19 18:41:47,827 py37_api INFO my_assert.py 23 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-19 18:41:47,827 py37_api INFO my_assert.py 28 从响应结果中提取的值是：
+2
+2022-03-19 18:41:47,827 py37_api INFO my_assert.py 29 期望结果是：
+2
+2022-03-19 18:41:47,827 py37_api INFO my_assert.py 32 比对结果是：
+True
+2022-03-19 18:41:47,827 py37_api INFO my_assert.py 40 所有断言成功
+2022-03-19 18:41:47,827 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-19 18:41:48,227 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-19 18:41:48,227 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-19 18:41:48,227 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-19 18:41:48,227 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '1342957wqer', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-19 18:41:48,317 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-19 18:41:48,317 py37_api INFO my_assert.py 23 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-19 18:41:48,317 py37_api INFO my_assert.py 28 从响应结果中提取的值是：
+2
+2022-03-19 18:41:48,317 py37_api INFO my_assert.py 29 期望结果是：
+2
+2022-03-19 18:41:48,317 py37_api INFO my_assert.py 32 比对结果是：
+True
+2022-03-19 18:41:48,317 py37_api INFO my_assert.py 40 所有断言成功
+2022-03-19 18:43:19,783 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-19 18:43:20,753 py37_api INFO test_register.py 33 新生成的手机号码是:15898741178
+2022-03-19 18:43:20,753 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-19 18:43:20,753 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-19 18:43:20,753 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-19 18:43:20,753 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '15898741178', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-19 18:43:20,913 py37_api INFO my_requests.py 26 响应结果是：
+{"code":0,"msg":"OK","data":{"id":34292745,"reg_name":"testing01","mobile_phone":"15898741178"},"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-19 18:43:20,913 py37_api INFO my_assert.py 23 要断言的字段为：
+{'expr': '$.code', 'expected': 0, 'type': 'eq'}
+2022-03-19 18:43:20,913 py37_api INFO my_assert.py 28 从响应结果中提取的值是：
+0
+2022-03-19 18:43:20,913 py37_api INFO my_assert.py 29 期望结果是：
+0
+2022-03-19 18:43:20,913 py37_api INFO my_assert.py 32 比对结果是：
+True
+2022-03-19 18:43:20,913 py37_api INFO my_assert.py 23 要断言的字段为：
+{'expr': '$..mobile_phone', 'expected': '15898741178', 'type': 'eq'}
+2022-03-19 18:43:20,913 py37_api INFO my_assert.py 28 从响应结果中提取的值是：
+15898741178
+2022-03-19 18:43:20,913 py37_api INFO my_assert.py 29 期望结果是：
+15898741178
+2022-03-19 18:43:20,913 py37_api INFO my_assert.py 32 比对结果是：
+True
+2022-03-19 18:43:20,913 py37_api INFO my_assert.py 40 所有断言成功
+2022-03-19 18:43:21,424 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-19 18:43:21,834 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-19 18:43:21,834 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-19 18:43:21,834 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-19 18:43:21,834 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '13429570015', 'pwd': '123456789', 'reg_name': 'testing01', 'type': 0}
+2022-03-19 18:43:21,994 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"账号已存在","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-19 18:43:21,994 py37_api INFO my_assert.py 23 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-19 18:43:21,994 py37_api INFO my_assert.py 28 从响应结果中提取的值是：
+2
+2022-03-19 18:43:21,994 py37_api INFO my_assert.py 29 期望结果是：
+2
+2022-03-19 18:43:21,994 py37_api INFO my_assert.py 32 比对结果是：
+True
+2022-03-19 18:43:21,994 py37_api INFO my_assert.py 40 所有断言成功
+2022-03-19 18:43:22,004 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-19 18:43:22,434 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-19 18:43:22,434 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-19 18:43:22,434 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-19 18:43:22,434 py37_api INFO my_requests.py 20 请求data：
+{'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-19 18:43:22,524 py37_api INFO my_requests.py 26 响应结果是：
+{"code":1,"msg":"手机号为空","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-19 18:43:22,524 py37_api INFO my_assert.py 23 要断言的字段为：
+{'expr': '$.code', 'expected': 1, 'type': 'eq'}
+2022-03-19 18:43:22,524 py37_api INFO my_assert.py 28 从响应结果中提取的值是：
+1
+2022-03-19 18:43:22,524 py37_api INFO my_assert.py 29 期望结果是：
+1
+2022-03-19 18:43:22,524 py37_api INFO my_assert.py 32 比对结果是：
+True
+2022-03-19 18:43:22,524 py37_api INFO my_assert.py 40 所有断言成功
+2022-03-19 18:43:22,524 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-19 18:43:22,944 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-19 18:43:22,944 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-19 18:43:22,944 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-19 18:43:22,944 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '1342957000', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-19 18:43:23,044 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-19 18:43:23,044 py37_api INFO my_assert.py 23 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-19 18:43:23,044 py37_api INFO my_assert.py 28 从响应结果中提取的值是：
+2
+2022-03-19 18:43:23,044 py37_api INFO my_assert.py 29 期望结果是：
+2
+2022-03-19 18:43:23,044 py37_api INFO my_assert.py 32 比对结果是：
+True
+2022-03-19 18:43:23,044 py37_api INFO my_assert.py 40 所有断言成功
+2022-03-19 18:43:23,044 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-19 18:43:23,454 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-19 18:43:23,464 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-19 18:43:23,464 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-19 18:43:23,464 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '134295700012', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-19 18:43:23,554 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-19 18:43:23,554 py37_api INFO my_assert.py 23 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-19 18:43:23,554 py37_api INFO my_assert.py 28 从响应结果中提取的值是：
+2
+2022-03-19 18:43:23,554 py37_api INFO my_assert.py 29 期望结果是：
+2
+2022-03-19 18:43:23,554 py37_api INFO my_assert.py 32 比对结果是：
+True
+2022-03-19 18:43:23,554 py37_api INFO my_assert.py 40 所有断言成功
+2022-03-19 18:43:23,554 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-19 18:43:23,954 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-19 18:43:23,954 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-19 18:43:23,954 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-19 18:43:23,954 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '1342957wqer', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-19 18:43:24,054 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-19 18:43:24,054 py37_api INFO my_assert.py 23 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-19 18:43:24,054 py37_api INFO my_assert.py 28 从响应结果中提取的值是：
+2
+2022-03-19 18:43:24,054 py37_api INFO my_assert.py 29 期望结果是：
+2
+2022-03-19 18:43:24,054 py37_api INFO my_assert.py 32 比对结果是：
+True
+2022-03-19 18:43:24,054 py37_api INFO my_assert.py 40 所有断言成功
+2022-03-19 18:45:05,703 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-19 18:45:06,263 py37_api INFO test_register.py 33 新生成的手机号码是:18578927087
+2022-03-19 18:45:06,263 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-19 18:45:06,263 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-19 18:45:06,263 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-19 18:45:06,263 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '18578927087', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-19 18:45:06,443 py37_api INFO my_requests.py 26 响应结果是：
+{"code":0,"msg":"OK","data":{"id":34292746,"reg_name":"testing01","mobile_phone":"18578927087"},"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-19 18:45:06,443 py37_api INFO my_assert.py 23 要断言的字段为：
+{'expr': '$.code', 'expected': 0, 'type': 'eq'}
+2022-03-19 18:45:06,443 py37_api INFO my_assert.py 28 从响应结果中提取的值是：
+0
+2022-03-19 18:45:06,443 py37_api INFO my_assert.py 29 期望结果是：
+0
+2022-03-19 18:45:06,443 py37_api INFO my_assert.py 32 比对结果是：
+True
+2022-03-19 18:45:06,443 py37_api INFO my_assert.py 23 要断言的字段为：
+{'expr': '$..mobile_phone', 'expected': '18578927087', 'type': 'eq'}
+2022-03-19 18:45:06,453 py37_api INFO my_assert.py 28 从响应结果中提取的值是：
+18578927087
+2022-03-19 18:45:06,453 py37_api INFO my_assert.py 29 期望结果是：
+18578927087
+2022-03-19 18:45:06,453 py37_api INFO my_assert.py 32 比对结果是：
+True
+2022-03-19 18:45:06,453 py37_api INFO my_assert.py 40 所有断言成功
+2022-03-19 18:45:06,953 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-19 18:45:07,363 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-19 18:45:07,363 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-19 18:45:07,363 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-19 18:45:07,363 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '13429570015', 'pwd': '123456789', 'reg_name': 'testing01', 'type': 0}
+2022-03-19 18:45:07,523 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"账号已存在","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-19 18:45:07,523 py37_api INFO my_assert.py 23 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-19 18:45:07,523 py37_api INFO my_assert.py 28 从响应结果中提取的值是：
+2
+2022-03-19 18:45:07,523 py37_api INFO my_assert.py 29 期望结果是：
+2
+2022-03-19 18:45:07,523 py37_api INFO my_assert.py 32 比对结果是：
+True
+2022-03-19 18:45:07,523 py37_api INFO my_assert.py 40 所有断言成功
+2022-03-19 18:45:07,533 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-19 18:45:07,943 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-19 18:45:07,943 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-19 18:45:07,943 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-19 18:45:07,943 py37_api INFO my_requests.py 20 请求data：
+{'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-19 18:45:08,023 py37_api INFO my_requests.py 26 响应结果是：
+{"code":1,"msg":"手机号为空","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-19 18:45:08,023 py37_api INFO my_assert.py 23 要断言的字段为：
+{'expr': '$.code', 'expected': 1, 'type': 'eq'}
+2022-03-19 18:45:08,023 py37_api INFO my_assert.py 28 从响应结果中提取的值是：
+1
+2022-03-19 18:45:08,033 py37_api INFO my_assert.py 29 期望结果是：
+1
+2022-03-19 18:45:08,033 py37_api INFO my_assert.py 32 比对结果是：
+True
+2022-03-19 18:45:08,033 py37_api INFO my_assert.py 40 所有断言成功
+2022-03-19 18:45:08,033 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-19 18:45:08,443 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-19 18:45:08,443 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-19 18:45:08,443 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-19 18:45:08,443 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '1342957000', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-19 18:45:08,533 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-19 18:45:08,533 py37_api INFO my_assert.py 23 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-19 18:45:08,533 py37_api INFO my_assert.py 28 从响应结果中提取的值是：
+2
+2022-03-19 18:45:08,533 py37_api INFO my_assert.py 29 期望结果是：
+2
+2022-03-19 18:45:08,533 py37_api INFO my_assert.py 32 比对结果是：
+True
+2022-03-19 18:45:08,533 py37_api INFO my_assert.py 40 所有断言成功
+2022-03-19 18:45:08,543 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-19 18:45:08,963 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-19 18:45:08,963 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-19 18:45:08,963 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-19 18:45:08,963 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '134295700012', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-19 18:45:09,053 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-19 18:45:09,053 py37_api INFO my_assert.py 23 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-19 18:45:09,053 py37_api INFO my_assert.py 28 从响应结果中提取的值是：
+2
+2022-03-19 18:45:09,053 py37_api INFO my_assert.py 29 期望结果是：
+2
+2022-03-19 18:45:09,053 py37_api INFO my_assert.py 32 比对结果是：
+True
+2022-03-19 18:45:09,053 py37_api INFO my_assert.py 40 所有断言成功
+2022-03-19 18:45:09,063 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-19 18:45:09,463 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-19 18:45:09,463 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-19 18:45:09,463 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-19 18:45:09,463 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '1342957wqer', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-19 18:45:09,553 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-19 18:45:09,553 py37_api INFO my_assert.py 23 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-19 18:45:09,553 py37_api INFO my_assert.py 28 从响应结果中提取的值是：
+2
+2022-03-19 18:45:09,553 py37_api INFO my_assert.py 29 期望结果是：
+2
+2022-03-19 18:45:09,553 py37_api INFO my_assert.py 32 比对结果是：
+True
+2022-03-19 18:45:09,553 py37_api INFO my_assert.py 40 所有断言成功
+2022-03-19 18:48:35,829 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-19 18:48:36,334 py37_api INFO test_register.py 33 新生成的手机号码是:13118650818
+2022-03-19 18:48:36,335 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-19 18:48:36,335 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-19 18:48:36,335 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-19 18:48:36,336 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '13118650818', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-19 18:48:36,499 py37_api INFO my_requests.py 26 响应结果是：
+{"code":0,"msg":"OK","data":{"id":34292754,"reg_name":"testing01","mobile_phone":"13118650818"},"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-19 18:48:36,501 py37_api INFO my_assert.py 23 要断言的字段为：
+{'expr': '$.code', 'expected': 0, 'type': 'eq'}
+2022-03-19 18:48:36,503 py37_api INFO my_assert.py 28 从响应结果中提取的值是：
+0
+2022-03-19 18:48:36,504 py37_api INFO my_assert.py 29 期望结果是：
+0
+2022-03-19 18:48:36,504 py37_api INFO my_assert.py 32 比对结果是：
+True
+2022-03-19 18:48:36,504 py37_api INFO my_assert.py 23 要断言的字段为：
+{'expr': '$..mobile_phone', 'expected': '13118650818', 'type': 'eq'}
+2022-03-19 18:48:36,506 py37_api INFO my_assert.py 28 从响应结果中提取的值是：
+13118650818
+2022-03-19 18:48:36,506 py37_api INFO my_assert.py 29 期望结果是：
+13118650818
+2022-03-19 18:48:36,506 py37_api INFO my_assert.py 32 比对结果是：
+True
+2022-03-19 18:48:36,507 py37_api INFO my_assert.py 40 所有断言成功
+2022-03-19 18:48:37,015 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-19 18:48:37,432 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-19 18:48:37,433 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-19 18:48:37,433 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-19 18:48:37,433 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '13429570015', 'pwd': '123456789', 'reg_name': 'testing01', 'type': 0}
+2022-03-19 18:48:37,590 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"账号已存在","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-19 18:48:37,591 py37_api INFO my_assert.py 23 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-19 18:48:37,591 py37_api INFO my_assert.py 28 从响应结果中提取的值是：
+2
+2022-03-19 18:48:37,591 py37_api INFO my_assert.py 29 期望结果是：
+2
+2022-03-19 18:48:37,592 py37_api INFO my_assert.py 32 比对结果是：
+True
+2022-03-19 18:48:37,592 py37_api INFO my_assert.py 40 所有断言成功
+2022-03-19 18:48:37,598 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-19 18:48:38,014 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-19 18:48:38,015 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-19 18:48:38,015 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-19 18:48:38,015 py37_api INFO my_requests.py 20 请求data：
+{'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-19 18:48:38,103 py37_api INFO my_requests.py 26 响应结果是：
+{"code":1,"msg":"手机号为空","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-19 18:48:38,104 py37_api INFO my_assert.py 23 要断言的字段为：
+{'expr': '$.code', 'expected': 1, 'type': 'eq'}
+2022-03-19 18:48:38,104 py37_api INFO my_assert.py 28 从响应结果中提取的值是：
+1
+2022-03-19 18:48:38,104 py37_api INFO my_assert.py 29 期望结果是：
+1
+2022-03-19 18:48:38,105 py37_api INFO my_assert.py 32 比对结果是：
+True
+2022-03-19 18:48:38,105 py37_api INFO my_assert.py 40 所有断言成功
+2022-03-19 18:48:38,111 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-19 18:48:38,536 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-19 18:48:38,537 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-19 18:48:38,537 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-19 18:48:38,537 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '1342957000', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-19 18:48:38,632 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-19 18:48:38,632 py37_api INFO my_assert.py 23 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-19 18:48:38,633 py37_api INFO my_assert.py 28 从响应结果中提取的值是：
+2
+2022-03-19 18:48:38,633 py37_api INFO my_assert.py 29 期望结果是：
+2
+2022-03-19 18:48:38,633 py37_api INFO my_assert.py 32 比对结果是：
+True
+2022-03-19 18:48:38,633 py37_api INFO my_assert.py 40 所有断言成功
+2022-03-19 18:48:38,639 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-19 18:48:39,067 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-19 18:48:39,068 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-19 18:48:39,068 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-19 18:48:39,068 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '134295700012', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-19 18:48:39,157 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-19 18:48:39,158 py37_api INFO my_assert.py 23 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-19 18:48:39,158 py37_api INFO my_assert.py 28 从响应结果中提取的值是：
+2
+2022-03-19 18:48:39,158 py37_api INFO my_assert.py 29 期望结果是：
+2
+2022-03-19 18:48:39,159 py37_api INFO my_assert.py 32 比对结果是：
+True
+2022-03-19 18:48:39,159 py37_api INFO my_assert.py 40 所有断言成功
+2022-03-19 18:48:39,165 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-19 18:48:39,602 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-19 18:48:39,602 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-19 18:48:39,603 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-19 18:48:39,603 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '1342957wqer', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-19 18:48:39,691 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-19 18:48:39,692 py37_api INFO my_assert.py 23 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-19 18:48:39,692 py37_api INFO my_assert.py 28 从响应结果中提取的值是：
+2
+2022-03-19 18:48:39,693 py37_api INFO my_assert.py 29 期望结果是：
+2
+2022-03-19 18:48:39,693 py37_api INFO my_assert.py 32 比对结果是：
+True
+2022-03-19 18:48:39,693 py37_api INFO my_assert.py 40 所有断言成功
+2022-03-19 19:40:07,245 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-19 19:40:07,806 py37_api INFO test_register.py 33 新生成的手机号码是:13201566889
+2022-03-19 19:40:07,806 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-19 19:40:07,806 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-19 19:40:07,806 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-19 19:40:07,806 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '13201566889', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-19 19:40:07,976 py37_api INFO my_requests.py 26 响应结果是：
+{"code":0,"msg":"OK","data":{"id":34292855,"reg_name":"testing01","mobile_phone":"13201566889"},"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-19 19:40:07,976 py37_api INFO my_assert.py 23 要断言的字段为：
+{'expr': '$.code', 'expected': 0, 'type': 'eq'}
+2022-03-19 19:40:07,976 py37_api INFO my_assert.py 28 从响应结果中提取的值是：
+0
+2022-03-19 19:40:07,976 py37_api INFO my_assert.py 29 期望结果是：
+0
+2022-03-19 19:40:07,976 py37_api INFO my_assert.py 32 比对结果是：
+True
+2022-03-19 19:40:07,976 py37_api INFO my_assert.py 23 要断言的字段为：
+{'expr': '$..mobile_phone', 'expected': '13201566889', 'type': 'eq'}
+2022-03-19 19:40:07,976 py37_api INFO my_assert.py 28 从响应结果中提取的值是：
+13201566889
+2022-03-19 19:40:07,976 py37_api INFO my_assert.py 29 期望结果是：
+13201566889
+2022-03-19 19:40:07,976 py37_api INFO my_assert.py 32 比对结果是：
+True
+2022-03-19 19:40:07,976 py37_api INFO my_assert.py 40 所有断言成功
+2022-03-19 19:40:08,476 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-19 19:40:09,516 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-19 19:40:09,516 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-19 19:40:09,516 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-19 19:40:09,516 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '13429570015', 'pwd': '123456789', 'reg_name': 'testing01', 'type': 0}
+2022-03-19 19:40:09,686 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"账号已存在","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-19 19:40:09,686 py37_api INFO my_assert.py 23 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-19 19:40:09,686 py37_api INFO my_assert.py 28 从响应结果中提取的值是：
+2
+2022-03-19 19:40:09,686 py37_api INFO my_assert.py 29 期望结果是：
+2
+2022-03-19 19:40:09,686 py37_api INFO my_assert.py 32 比对结果是：
+True
+2022-03-19 19:40:09,686 py37_api INFO my_assert.py 40 所有断言成功
+2022-03-19 19:40:09,686 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-19 19:40:10,126 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-19 19:40:10,126 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-19 19:40:10,126 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-19 19:40:10,126 py37_api INFO my_requests.py 20 请求data：
+{'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-19 19:40:10,206 py37_api INFO my_requests.py 26 响应结果是：
+{"code":1,"msg":"手机号为空","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-19 19:40:10,216 py37_api INFO my_assert.py 23 要断言的字段为：
+{'expr': '$.code', 'expected': 1, 'type': 'eq'}
+2022-03-19 19:40:10,216 py37_api INFO my_assert.py 28 从响应结果中提取的值是：
+1
+2022-03-19 19:40:10,216 py37_api INFO my_assert.py 29 期望结果是：
+1
+2022-03-19 19:40:10,216 py37_api INFO my_assert.py 32 比对结果是：
+True
+2022-03-19 19:40:10,216 py37_api INFO my_assert.py 40 所有断言成功
+2022-03-19 19:40:10,216 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-19 19:40:10,636 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-19 19:40:10,636 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-19 19:40:10,636 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-19 19:40:10,636 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '1342957000', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-19 19:40:10,726 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-19 19:40:10,736 py37_api INFO my_assert.py 23 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-19 19:40:10,736 py37_api INFO my_assert.py 28 从响应结果中提取的值是：
+2
+2022-03-19 19:40:10,736 py37_api INFO my_assert.py 29 期望结果是：
+2
+2022-03-19 19:40:10,736 py37_api INFO my_assert.py 32 比对结果是：
+True
+2022-03-19 19:40:10,736 py37_api INFO my_assert.py 40 所有断言成功
+2022-03-19 19:40:10,736 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-19 19:40:11,146 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-19 19:40:11,156 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-19 19:40:11,156 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-19 19:40:11,156 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '134295700012', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-19 19:40:11,236 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-19 19:40:11,246 py37_api INFO my_assert.py 23 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-19 19:40:11,246 py37_api INFO my_assert.py 28 从响应结果中提取的值是：
+2
+2022-03-19 19:40:11,246 py37_api INFO my_assert.py 29 期望结果是：
+2
+2022-03-19 19:40:11,246 py37_api INFO my_assert.py 32 比对结果是：
+True
+2022-03-19 19:40:11,246 py37_api INFO my_assert.py 40 所有断言成功
+2022-03-19 19:40:11,246 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-19 19:40:11,677 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-19 19:40:11,677 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-19 19:40:11,677 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-19 19:40:11,677 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '1342957wqer', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-19 19:40:11,757 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-19 19:40:11,757 py37_api INFO my_assert.py 23 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-19 19:40:11,757 py37_api INFO my_assert.py 28 从响应结果中提取的值是：
+2
+2022-03-19 19:40:11,757 py37_api INFO my_assert.py 29 期望结果是：
+2
+2022-03-19 19:40:11,767 py37_api INFO my_assert.py 32 比对结果是：
+True
+2022-03-19 19:40:11,767 py37_api INFO my_assert.py 40 所有断言成功
+2022-03-19 19:40:45,647 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-19 19:40:46,167 py37_api INFO test_register.py 33 新生成的手机号码是:14583173699
+2022-03-19 19:40:46,167 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-19 19:40:46,167 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-19 19:40:46,167 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-19 19:40:46,167 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '14583173699', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-19 19:40:46,337 py37_api INFO my_requests.py 26 响应结果是：
+{"code":0,"msg":"OK","data":{"id":34292859,"reg_name":"testing01","mobile_phone":"14583173699"},"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-19 19:40:46,337 py37_api INFO my_assert.py 23 要断言的字段为：
+{'expr': '$.code', 'expected': 0, 'type': 'eq'}
+2022-03-19 19:40:46,337 py37_api INFO my_assert.py 28 从响应结果中提取的值是：
+0
+2022-03-19 19:40:46,337 py37_api INFO my_assert.py 29 期望结果是：
+0
+2022-03-19 19:40:46,337 py37_api INFO my_assert.py 32 比对结果是：
+True
+2022-03-19 19:40:46,337 py37_api INFO my_assert.py 23 要断言的字段为：
+{'expr': '$..mobile_phone', 'expected': '14583173699', 'type': 'eq'}
+2022-03-19 19:40:46,337 py37_api INFO my_assert.py 28 从响应结果中提取的值是：
+14583173699
+2022-03-19 19:40:46,337 py37_api INFO my_assert.py 29 期望结果是：
+14583173699
+2022-03-19 19:40:46,337 py37_api INFO my_assert.py 32 比对结果是：
+True
+2022-03-19 19:40:46,337 py37_api INFO my_assert.py 40 所有断言成功
+2022-03-19 19:40:46,517 py37_api INFO my_assert.py 64 当前要比对sql是：
+select id from member where mobile_phone='14583173699';
+2022-03-19 19:40:46,517 py37_api INFO my_assert.py 65 当前要比查询类型是：
+count
+2022-03-19 19:40:46,597 py37_api INFO my_assert.py 70 SQL的执行结果是：
+1
+2022-03-19 19:40:46,597 py37_api ERROR my_assert.py 75 断言失败
+2022-03-19 19:40:47,057 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-19 19:40:47,467 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-19 19:40:47,467 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-19 19:40:47,467 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-19 19:40:47,467 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '13429570015', 'pwd': '123456789', 'reg_name': 'testing01', 'type': 0}
+2022-03-19 19:40:47,627 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"账号已存在","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-19 19:40:47,627 py37_api INFO my_assert.py 23 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-19 19:40:47,627 py37_api INFO my_assert.py 28 从响应结果中提取的值是：
+2
+2022-03-19 19:40:47,627 py37_api INFO my_assert.py 29 期望结果是：
+2
+2022-03-19 19:40:47,627 py37_api INFO my_assert.py 32 比对结果是：
+True
+2022-03-19 19:40:47,627 py37_api INFO my_assert.py 40 所有断言成功
+2022-03-19 19:40:47,637 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-19 19:40:48,037 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-19 19:40:48,037 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-19 19:40:48,037 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-19 19:40:48,037 py37_api INFO my_requests.py 20 请求data：
+{'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-19 19:40:48,117 py37_api INFO my_requests.py 26 响应结果是：
+{"code":1,"msg":"手机号为空","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-19 19:40:48,117 py37_api INFO my_assert.py 23 要断言的字段为：
+{'expr': '$.code', 'expected': 1, 'type': 'eq'}
+2022-03-19 19:40:48,117 py37_api INFO my_assert.py 28 从响应结果中提取的值是：
+1
+2022-03-19 19:40:48,117 py37_api INFO my_assert.py 29 期望结果是：
+1
+2022-03-19 19:40:48,117 py37_api INFO my_assert.py 32 比对结果是：
+True
+2022-03-19 19:40:48,117 py37_api INFO my_assert.py 40 所有断言成功
+2022-03-19 19:40:48,127 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-19 19:40:48,537 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-19 19:40:48,537 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-19 19:40:48,537 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-19 19:40:48,537 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '1342957000', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-19 19:40:48,617 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-19 19:40:48,617 py37_api INFO my_assert.py 23 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-19 19:40:48,617 py37_api INFO my_assert.py 28 从响应结果中提取的值是：
+2
+2022-03-19 19:40:48,617 py37_api INFO my_assert.py 29 期望结果是：
+2
+2022-03-19 19:40:48,617 py37_api INFO my_assert.py 32 比对结果是：
+True
+2022-03-19 19:40:48,617 py37_api INFO my_assert.py 40 所有断言成功
+2022-03-19 19:40:48,627 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-19 19:40:49,058 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-19 19:40:49,058 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-19 19:40:49,058 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-19 19:40:49,058 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '134295700012', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-19 19:40:49,148 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-19 19:40:49,148 py37_api INFO my_assert.py 23 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-19 19:40:49,148 py37_api INFO my_assert.py 28 从响应结果中提取的值是：
+2
+2022-03-19 19:40:49,148 py37_api INFO my_assert.py 29 期望结果是：
+2
+2022-03-19 19:40:49,148 py37_api INFO my_assert.py 32 比对结果是：
+True
+2022-03-19 19:40:49,148 py37_api INFO my_assert.py 40 所有断言成功
+2022-03-19 19:40:49,158 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-19 19:40:49,548 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-19 19:40:49,548 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-19 19:40:49,548 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-19 19:40:49,548 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '1342957wqer', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-19 19:40:49,638 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-19 19:40:49,638 py37_api INFO my_assert.py 23 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-19 19:40:49,638 py37_api INFO my_assert.py 28 从响应结果中提取的值是：
+2
+2022-03-19 19:40:49,638 py37_api INFO my_assert.py 29 期望结果是：
+2
+2022-03-19 19:40:49,638 py37_api INFO my_assert.py 32 比对结果是：
+True
+2022-03-19 19:40:49,638 py37_api INFO my_assert.py 40 所有断言成功
+2022-03-19 19:44:06,470 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-19 19:44:07,030 py37_api INFO test_register.py 33 新生成的手机号码是:18609414205
+2022-03-19 19:44:07,030 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-19 19:44:07,030 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-19 19:44:07,040 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-19 19:44:07,040 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '18609414205', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-19 19:44:07,200 py37_api INFO my_requests.py 26 响应结果是：
+{"code":0,"msg":"OK","data":{"id":34292866,"reg_name":"testing01","mobile_phone":"18609414205"},"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-19 19:44:07,200 py37_api INFO my_assert.py 23 要断言的字段为：
+{'expr': '$.code', 'expected': 0, 'type': 'eq'}
+2022-03-19 19:44:07,200 py37_api INFO my_assert.py 28 从响应结果中提取的值是：
+0
+2022-03-19 19:44:07,200 py37_api INFO my_assert.py 29 期望结果是：
+0
+2022-03-19 19:44:07,200 py37_api INFO my_assert.py 32 比对结果是：
+True
+2022-03-19 19:44:07,210 py37_api INFO my_assert.py 23 要断言的字段为：
+{'expr': '$..mobile_phone', 'expected': '18609414205', 'type': 'eq'}
+2022-03-19 19:44:07,210 py37_api INFO my_assert.py 28 从响应结果中提取的值是：
+18609414205
+2022-03-19 19:44:07,210 py37_api INFO my_assert.py 29 期望结果是：
+18609414205
+2022-03-19 19:44:07,210 py37_api INFO my_assert.py 32 比对结果是：
+True
+2022-03-19 19:44:07,210 py37_api INFO my_assert.py 40 所有断言成功
+2022-03-19 19:44:07,419 py37_api INFO my_assert.py 64 当前要比对sql是：
+select id from member where mobile_phone='18609414205';
+2022-03-19 19:44:07,420 py37_api INFO my_assert.py 65 当前要比查询类型是：
+count
+2022-03-19 19:44:07,505 py37_api INFO my_assert.py 70 SQL的执行结果是：
+1
+2022-03-19 19:44:07,505 py37_api INFO my_assert.py 73 比对结果是：
+True
+2022-03-19 19:44:07,506 py37_api INFO my_assert.py 80 所有断言成功
+2022-03-19 19:44:07,513 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-19 19:44:07,900 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-19 19:44:07,900 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-19 19:44:07,900 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-19 19:44:07,900 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '13429570015', 'pwd': '123456789', 'reg_name': 'testing01', 'type': 0}
+2022-03-19 19:44:08,060 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"账号已存在","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-19 19:44:08,060 py37_api INFO my_assert.py 23 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-19 19:44:08,060 py37_api INFO my_assert.py 28 从响应结果中提取的值是：
+2
+2022-03-19 19:44:08,070 py37_api INFO my_assert.py 29 期望结果是：
+2
+2022-03-19 19:44:08,070 py37_api INFO my_assert.py 32 比对结果是：
+True
+2022-03-19 19:44:08,070 py37_api INFO my_assert.py 40 所有断言成功
+2022-03-19 19:44:08,070 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-19 19:44:08,470 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-19 19:44:08,470 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-19 19:44:08,470 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-19 19:44:08,470 py37_api INFO my_requests.py 20 请求data：
+{'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-19 19:44:08,560 py37_api INFO my_requests.py 26 响应结果是：
+{"code":1,"msg":"手机号为空","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-19 19:44:08,560 py37_api INFO my_assert.py 23 要断言的字段为：
+{'expr': '$.code', 'expected': 1, 'type': 'eq'}
+2022-03-19 19:44:08,560 py37_api INFO my_assert.py 28 从响应结果中提取的值是：
+1
+2022-03-19 19:44:08,560 py37_api INFO my_assert.py 29 期望结果是：
+1
+2022-03-19 19:44:08,560 py37_api INFO my_assert.py 32 比对结果是：
+True
+2022-03-19 19:44:08,560 py37_api INFO my_assert.py 40 所有断言成功
+2022-03-19 19:44:08,570 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-19 19:44:09,010 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-19 19:44:09,010 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-19 19:44:09,010 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-19 19:44:09,010 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '1342957000', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-19 19:44:09,100 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-19 19:44:09,100 py37_api INFO my_assert.py 23 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-19 19:44:09,100 py37_api INFO my_assert.py 28 从响应结果中提取的值是：
+2
+2022-03-19 19:44:09,100 py37_api INFO my_assert.py 29 期望结果是：
+2
+2022-03-19 19:44:09,100 py37_api INFO my_assert.py 32 比对结果是：
+True
+2022-03-19 19:44:09,100 py37_api INFO my_assert.py 40 所有断言成功
+2022-03-19 19:44:09,110 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-19 19:44:09,520 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-19 19:44:09,520 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-19 19:44:09,520 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-19 19:44:09,520 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '134295700012', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-19 19:44:09,620 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-19 19:44:09,620 py37_api INFO my_assert.py 23 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-19 19:44:09,620 py37_api INFO my_assert.py 28 从响应结果中提取的值是：
+2
+2022-03-19 19:44:09,620 py37_api INFO my_assert.py 29 期望结果是：
+2
+2022-03-19 19:44:09,620 py37_api INFO my_assert.py 32 比对结果是：
+True
+2022-03-19 19:44:09,620 py37_api INFO my_assert.py 40 所有断言成功
+2022-03-19 19:44:09,630 py37_api INFO test_register.py 29 =============================注册接口===========================
+2022-03-19 19:44:10,030 py37_api INFO my_requests.py 34 请求头为：
+{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2022-03-19 19:44:10,030 py37_api INFO my_requests.py 18 请求url：
+http://api.lemonban.com/futureloan/member/register
+2022-03-19 19:44:10,030 py37_api INFO my_requests.py 19 请求method：
+post
+2022-03-19 19:44:10,030 py37_api INFO my_requests.py 20 请求data：
+{'mobile_phone': '1342957wqer', 'pwd': '123456789', 'reg_name': 'testing01'}
+2022-03-19 19:44:10,120 py37_api INFO my_requests.py 26 响应结果是：
+{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2022-03-19 19:44:10,120 py37_api INFO my_assert.py 23 要断言的字段为：
+{'expr': '$.code', 'expected': 2, 'type': 'eq'}
+2022-03-19 19:44:10,120 py37_api INFO my_assert.py 28 从响应结果中提取的值是：
+2
+2022-03-19 19:44:10,120 py37_api INFO my_assert.py 29 期望结果是：
+2
+2022-03-19 19:44:10,130 py37_api INFO my_assert.py 32 比对结果是：
+True
+2022-03-19 19:44:10,130 py37_api INFO my_assert.py 40 所有断言成功
